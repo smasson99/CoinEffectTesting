@@ -1,0 +1,87 @@
+ (0,0): Unity incremental compiler server
+ (0,0): watchdog active on pid: 12044
+ (0,0): [09-14-2018 12:52:16.999 ] Unity.TextMeshPro.dll: no prior compilation found in cache
+ (0,0): [09-14-2018 12:52:17.014 ] Unity.TextMeshPro.dll compiling...
+ (0,0): [09-14-2018 12:52:17.034 ] Unity.Properties.dll: no prior compilation found in cache
+ (0,0): [09-14-2018 12:52:17.046 ] Unity.Properties.dll compiling...
+ (0,0): [09-14-2018 12:52:17.230 ] Unity.Mathematics.dll: no prior compilation found in cache
+ (0,0): [09-14-2018 12:52:17.234 ] Unity.Burst.dll: no prior compilation found in cache
+ (0,0): [09-14-2018 12:52:17.289 ] Unity.PackageManagerUI.Editor.dll: no prior compilation found in cache
+ (0,0): [09-14-2018 12:52:17.277 ] Unity.Mathematics.dll compiling...
+ (0,0): [09-14-2018 12:52:17.302 ] Unity.PackageManagerUI.Editor.dll compiling...
+ (0,0): [09-14-2018 12:52:17.296 ] Unity.Burst.dll compiling...
+ (0,0): [09-14-2018 12:52:17.476 ] UnityEditor.StandardEvents.dll: no prior compilation found in cache
+ (0,0): [09-14-2018 12:52:17.488 ] UnityEditor.StandardEvents.dll compiling...
+ (0,0): [09-14-2018 12:52:19.751 ] Unity.Properties.dll: emitting IL to : C:\Users\smass\Desktop\CoinEffectTesting\Coin Testing Project\Temp\Unity.Properties.dll
+ (0,0): [09-14-2018 12:52:19.766 ] Unity.PackageManagerUI.Editor.dll: emitting IL to : C:\Users\smass\Desktop\CoinEffectTesting\Coin Testing Project\Temp\Unity.PackageManagerUI.Editor.dll
+ (0,0): [09-14-2018 12:52:19.766 ] Unity.Burst.dll: emitting IL to : C:\Users\smass\Desktop\CoinEffectTesting\Coin Testing Project\Temp\Unity.Burst.dll
+ (0,0): [09-14-2018 12:52:19.795 ] UnityEditor.StandardEvents.dll: emitting IL to : C:\Users\smass\Desktop\CoinEffectTesting\Coin Testing Project\Temp\UnityEditor.StandardEvents.dll
+ (0,0): [09-14-2018 12:52:19.932 ] Unity.TextMeshPro.dll: emitting IL to : C:\Users\smass\Desktop\CoinEffectTesting\Coin Testing Project\Temp\Unity.TextMeshPro.dll
+ (0,0): [09-14-2018 12:52:19.937 ] Unity.Burst.dll compilation finished in 2641ms  source files re-parsed: 2 metadata reloaded: 0
+ (0,0): [09-14-2018 12:52:19.993 ] Unity.Properties.dll compilation finished in 2946ms  source files re-parsed: 34 metadata reloaded: 164
+ (0,0): [09-14-2018 12:52:19.997 ] Unity.PackageManagerUI.Editor.dll compilation finished in 2695ms  source files re-parsed: 44 metadata reloaded: 2
+ (0,0): [09-14-2018 12:52:19.995 ] UnityEditor.StandardEvents.dll compilation finished in 2507ms  source files re-parsed: 1 metadata reloaded: 0
+ (0,0): [09-14-2018 12:52:20.063 ] Unity.TextMeshPro.dll compilation finished in 3048ms  source files re-parsed: 45 metadata reloaded: 205
+ (0,0): [09-14-2018 12:52:20.649 ] Unity.Burst.Editor.dll: no prior compilation found in cache
+ (0,0): [09-14-2018 12:52:20.661 ] Unity.Burst.Editor.dll compiling...
+ (0,0): [09-14-2018 12:52:20.760 ] Unity.Burst.Editor.dll: emitting IL to : C:\Users\smass\Desktop\CoinEffectTesting\Coin Testing Project\Temp\Unity.Burst.Editor.dll
+ (0,0): [09-14-2018 12:52:20.828 ] Unity.Burst.Editor.dll compilation finished in 166ms  source files re-parsed: 9 metadata reloaded: 1
+ (0,0): [09-14-2018 12:52:20.959 ] Unity.Properties.Editor.dll: no prior compilation found in cache
+ (0,0): [09-14-2018 12:52:20.972 ] Unity.Properties.Editor.dll compiling...
+ (0,0): [09-14-2018 12:52:21.081 ] Unity.TextMeshPro.Editor.dll: no prior compilation found in cache
+ (0,0): [09-14-2018 12:52:21.092 ] Unity.TextMeshPro.Editor.dll compiling...
+ (0,0): [09-14-2018 12:52:21.170 ] Unity.Properties.Codegen.dll: no prior compilation found in cache
+ (0,0): [09-14-2018 12:52:21.280 ] Unity.Properties.Codegen.dll compiling...
+ (0,0): [09-14-2018 12:52:21.282 ] Unity.Properties.Editor.dll: emitting IL to : C:\Users\smass\Desktop\CoinEffectTesting\Coin Testing Project\Temp\Unity.Properties.Editor.dll
+ (0,0): [09-14-2018 12:52:21.444 ] Unity.Properties.Codegen.dll: emitting IL to : C:\Users\smass\Desktop\CoinEffectTesting\Coin Testing Project\Temp\Unity.Properties.Codegen.dll
+ (0,0): [09-14-2018 12:52:21.462 ] Unity.Properties.Editor.dll compilation finished in 490ms  source files re-parsed: 23 metadata reloaded: 1
+ (0,0): [09-14-2018 12:52:21.483 ] Unity.TextMeshPro.Editor.dll: emitting IL to : C:\Users\smass\Desktop\CoinEffectTesting\Coin Testing Project\Temp\Unity.TextMeshPro.Editor.dll
+ (0,0): [09-14-2018 12:52:21.585 ] Unity.Properties.Codegen.dll compilation finished in 305ms  source files re-parsed: 7 metadata reloaded: 0
+ (0,0): [09-14-2018 12:52:21.732 ] Unity.TextMeshPro.Editor.dll compilation finished in 639ms  source files re-parsed: 39 metadata reloaded: 1
+ (0,0): [09-14-2018 12:52:21.744 ] Unity.Mathematics.dll: emitting IL to : C:\Users\smass\Desktop\CoinEffectTesting\Coin Testing Project\Temp\Unity.Mathematics.dll
+ (0,0): [09-14-2018 12:52:21.796 ] Unity.Mathematics.dll compilation finished in 4518ms  source files re-parsed: 81 metadata reloaded: 0
+ (0,0): [09-14-2018 12:52:22.106 ] Unity.Mathematics.Editor.dll: no prior compilation found in cache
+ (0,0): [09-14-2018 12:52:22.118 ] Unity.Mathematics.Editor.dll compiling...
+ (0,0): [09-14-2018 12:52:22.158 ] Unity.Mathematics.Editor.dll: emitting IL to : C:\Users\smass\Desktop\CoinEffectTesting\Coin Testing Project\Temp\Unity.Mathematics.Editor.dll
+ (0,0): [09-14-2018 12:52:22.201 ] Unity.Mathematics.Editor.dll compilation finished in 82ms  source files re-parsed: 1 metadata reloaded: 1
+ (0,0): [09-14-2018 12:52:22.208 ] Unity.Collections.dll: no prior compilation found in cache
+ (0,0): [09-14-2018 12:52:22.219 ] Unity.Collections.dll compiling...
+ (0,0): [09-14-2018 12:52:22.304 ] Unity.Collections.dll: emitting IL to : C:\Users\smass\Desktop\CoinEffectTesting\Coin Testing Project\Temp\Unity.Collections.dll
+ (0,0): [09-14-2018 12:52:22.362 ] Unity.Collections.dll compilation finished in 143ms  source files re-parsed: 11 metadata reloaded: 0
+ (0,0): [09-14-2018 12:52:22.577 ] Unity.Jobs.dll: no prior compilation found in cache
+ (0,0): [09-14-2018 12:52:22.589 ] Unity.Jobs.dll compiling...
+ (0,0): [09-14-2018 12:52:22.630 ] Unity.Jobs.dll: emitting IL to : C:\Users\smass\Desktop\CoinEffectTesting\Coin Testing Project\Temp\Unity.Jobs.dll
+ (0,0): [09-14-2018 12:52:22.663 ] Unity.Jobs.dll compilation finished in 74ms  source files re-parsed: 3 metadata reloaded: 1
+ (0,0): [09-14-2018 12:52:22.682 ] Unity.Entities.dll: no prior compilation found in cache
+ (0,0): [09-14-2018 12:52:22.695 ] Unity.Entities.dll compiling...
+ (0,0): [09-14-2018 12:52:22.996 ] Unity.Entities.dll: emitting IL to : C:\Users\smass\Desktop\CoinEffectTesting\Coin Testing Project\Temp\Unity.Entities.dll
+ (0,0): [09-14-2018 12:52:22.999 ] Unity.Jobs.Editor.dll: no prior compilation found in cache
+ (0,0): [09-14-2018 12:52:23.011 ] Unity.Jobs.Editor.dll compiling...
+ (0,0): [09-14-2018 12:52:23.063 ] Unity.Jobs.Editor.dll: emitting IL to : C:\Users\smass\Desktop\CoinEffectTesting\Coin Testing Project\Temp\Unity.Jobs.Editor.dll
+ (0,0): [09-14-2018 12:52:23.084 ] Unity.Entities.dll compilation finished in 389ms  source files re-parsed: 57 metadata reloaded: 0
+ (0,0): [09-14-2018 12:52:23.092 ] Unity.Jobs.Editor.dll compilation finished in 80ms  source files re-parsed: 1 metadata reloaded: 1
+ (0,0): [09-14-2018 12:52:23.296 ] Unity.Entities.Hybrid.dll: no prior compilation found in cache
+ (0,0): [09-14-2018 12:52:23.307 ] Unity.Entities.Hybrid.dll compiling...
+ (0,0): [09-14-2018 12:52:23.366 ] Unity.Entities.Hybrid.dll: emitting IL to : C:\Users\smass\Desktop\CoinEffectTesting\Coin Testing Project\Temp\Unity.Entities.Hybrid.dll
+ (0,0): [09-14-2018 12:52:23.413 ] Unity.Entities.Hybrid.dll compilation finished in 105ms  source files re-parsed: 11 metadata reloaded: 1
+ (0,0): [09-14-2018 12:52:23.657 ] Unity.Transforms.dll: no prior compilation found in cache
+ (0,0): [09-14-2018 12:52:23.669 ] Unity.Transforms.dll compiling...
+ (0,0): [09-14-2018 12:52:23.768 ] Unity.Transforms.dll: emitting IL to : C:\Users\smass\Desktop\CoinEffectTesting\Coin Testing Project\Temp\Unity.Transforms.dll
+ (0,0): [09-14-2018 12:52:23.824 ] Unity.Transforms.dll compilation finished in 155ms  source files re-parsed: 9 metadata reloaded: 1
+ (0,0): [09-14-2018 12:52:24.168 ] Unity.Rendering.Hybrid.dll: no prior compilation found in cache
+ (0,0): [09-14-2018 12:52:24.180 ] Unity.Rendering.Hybrid.dll compiling...
+ (0,0): [09-14-2018 12:52:24.252 ] Unity.Rendering.Hybrid.dll: emitting IL to : C:\Users\smass\Desktop\CoinEffectTesting\Coin Testing Project\Temp\Unity.Rendering.Hybrid.dll
+ (0,0): [09-14-2018 12:52:24.280 ] Unity.Entities.Properties.dll: no prior compilation found in cache
+ (0,0): [09-14-2018 12:52:24.291 ] Unity.Entities.Properties.dll compiling...
+ (0,0): [09-14-2018 12:52:24.298 ] Unity.Rendering.Hybrid.dll compilation finished in 117ms  source files re-parsed: 9 metadata reloaded: 1
+ (0,0): [09-14-2018 12:52:24.343 ] Unity.Entities.Properties.dll: emitting IL to : C:\Users\smass\Desktop\CoinEffectTesting\Coin Testing Project\Temp\Unity.Entities.Properties.dll
+ (0,0): [09-14-2018 12:52:24.388 ] Unity.Transforms.Hybrid.dll: no prior compilation found in cache
+ (0,0): [09-14-2018 12:52:24.400 ] Unity.Transforms.Hybrid.dll compiling...
+ (0,0): [09-14-2018 12:52:24.401 ] Unity.Entities.Properties.dll compilation finished in 109ms  source files re-parsed: 14 metadata reloaded: 0
+ (0,0): [09-14-2018 12:52:24.435 ] Unity.Transforms.Hybrid.dll: emitting IL to : C:\Users\smass\Desktop\CoinEffectTesting\Coin Testing Project\Temp\Unity.Transforms.Hybrid.dll
+ (0,0): [09-14-2018 12:52:24.471 ] Unity.Transforms.Hybrid.dll compilation finished in 71ms  source files re-parsed: 6 metadata reloaded: 0
+ (0,0): [09-14-2018 12:52:24.712 ] Unity.Entities.Editor.dll: no prior compilation found in cache
+ (0,0): [09-14-2018 12:52:24.723 ] Unity.Entities.Editor.dll compiling...
+ (0,0): [09-14-2018 12:52:24.887 ] Unity.Entities.Editor.dll: emitting IL to : C:\Users\smass\Desktop\CoinEffectTesting\Coin Testing Project\Temp\Unity.Entities.Editor.dll
+ (0,0): [09-14-2018 12:52:24.951 ] Unity.Entities.Editor.dll compilation finished in 227ms  source files re-parsed: 23 metadata reloaded: 1
+ (0,0): watchdog triggered an exit
