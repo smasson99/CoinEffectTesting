@@ -7,19 +7,31 @@ namespace Collectibles
         [Tooltip("The rotation speed of this collectible.")] [SerializeField]
         private float speed = 1.2f;
 
+        private Vector3 direction;
+
+        private bool isStarting = true;
+
+        public bool IsStarting
+        {
+            get => isStarting;
+            private set => isStarting = value;
+        }
+
+        public Vector3 Direction
+        {
+            get => direction;
+            set => direction = value;
+        }
+        
         public float Speed
         {
             get => speed;
             private set => speed = value;
         }
 
-        [Tooltip("The direction of the rotation of this collectible.")]
-        private Vector3 direction;
-
-        public Vector3 Direction
+        public void NotifyStarted()
         {
-            get => direction;
-            set => direction = value;
+            isStarting = false;
         }
     }
 }

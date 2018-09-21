@@ -7,14 +7,23 @@ namespace Spawners
         [Tooltip("The number of collectibles to spawn.")] [SerializeField]
         private int numberOfCollectiblesToSpawn = 10;
 
+        [Tooltip("The prefab to spawn.")] [SerializeField]
+        private GameObject collectiblePrefab = null;
+
+        private bool isSpawning = false;
+        private GameObject coinTarget;
+
+        public GameObject CoinTarget
+        {
+            get => coinTarget;
+            private set => coinTarget = value;
+        }
+
         public int NumberOfCollectiblesToSpawn
         {
             get => numberOfCollectiblesToSpawn;
             set => numberOfCollectiblesToSpawn = value;
         }
-
-        [Tooltip("The prefab to spawn.")] [SerializeField]
-        private GameObject collectiblePrefab = null;
 
         public GameObject CollectiblePrefab
         {
@@ -22,18 +31,22 @@ namespace Spawners
             private set => collectiblePrefab = value;
         }
 
-        private bool isSpawning = false;
-
         public bool IsSpawning
         {
             get => isSpawning;
             private set => isSpawning = value;
         }
 
-        public void Spawn(int numberOfInstatiates)
+        public void Spawn(GameObject target, int numberOfInstatiates)
         {
             numberOfCollectiblesToSpawn = numberOfInstatiates;
+            Spawn(target);
+        }
+
+        public void Spawn(GameObject target)
+        {
             isSpawning = true;
+            coinTarget = target;
         }
 
         public void NotifySpawned()

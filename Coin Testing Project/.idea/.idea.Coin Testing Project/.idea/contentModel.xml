@@ -12,6 +12,9 @@
             <e p="CollectibleTranslator.cs" t="Include" />
             <e p="CollectibleTranslatorSystem.cs" t="Include" />
           </e>
+          <e p="Ennemies" t="Include">
+            <e p="EnnemyController.cs" t="Include" />
+          </e>
           <e p="Gravity" t="Include">
             <e p="GravityForce.cs" t="Include" />
             <e p="GravitySystem.cs" t="Include" />
@@ -27,8 +30,18 @@
             <e p="NavMeshSurface.cs" t="Include" />
           </e>
           <e p="Spawners" t="Include">
-            <e p="Collectibles Spawner.cs" t="Include" />
-            <e p="CollectiblesSpawnerSystem.cs" t="Include" />
+            <e p="CoinSpawners" t="Include">
+              <e p="CollectibleSpawnerHandler.cs" t="Include" />
+              <e p="CollectiblesSpawner.cs" t="Include" />
+              <e p="CollectiblesSpawnersController.cs" t="Include" />
+              <e p="CollectiblesSpawnerSystem.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Tags" t="Include">
+            <e p="Tags.cs" t="Include" />
+          </e>
+          <e p="Utils" t="Include">
+            <e p="MathPositionUtils.cs" t="Include" />
           </e>
         </e>
       </e>

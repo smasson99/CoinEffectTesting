@@ -14,22 +14,19 @@ namespace Collectibles
             private set => speed = value;
         }
         
-        [SerializeField]
         private GameObject target = null;
+        private Vector3 initialTarget = Vector3.zero;
         
         public GameObject Target
         {
             get => target;
-            set => target = value;
+            private set => target = value;
         }
 
-        [Tooltip("Does the translator waits before translate to target?")]
-        [SerializeField] private bool waitsBeforeTranslate = true;
-
-        public bool WaitsBeforeTranslate
+        public Vector3 InitialTarget
         {
-            get => waitsBeforeTranslate;
-            set => waitsBeforeTranslate = value;
+            get => initialTarget;
+            private set => initialTarget = value;
         }
 
         private bool isSpawning = true;
@@ -39,10 +36,8 @@ namespace Collectibles
             get => isSpawning;
             private set => isSpawning = value;
         }
-
-        [Tooltip("Time to wait in seconds before translating.")]
-        [SerializeField]
-        private float waitingTimeInSeconds = 1.2f;
+        
+        private static float waitingTimeInSeconds = 5f;
 
         private float lastTime;
 
@@ -55,7 +50,20 @@ namespace Collectibles
         {
             return lastTime + waitingTimeInSeconds < Time.time;
         }
+
+        public void SetInitialTarget(Vector3 target)
+        {
+            initialTarget = target;
+        }
+
+        public void SetTarget(GameObject target)
+        {
+            this.target = target;
+        }
         
-        
+        public void NotifySpawned()
+        {
+            isSpawning = false;
+        }
     }
 }
