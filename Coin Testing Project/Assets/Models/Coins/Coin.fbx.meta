@@ -10,7 +10,17 @@ ModelImporter:
     2300000: //RootNode
     3300000: //RootNode
     4300000: GoldCoin
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: GoldCoinMaterial
+    second: {fileID: 2100000, guid: 2c034c3052369464d8b46b90373853ba, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: GoldInnerRingMaterial
+    second: {fileID: 2100000, guid: 6f7ac6eda24225b4d97e42863d95d98a, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
