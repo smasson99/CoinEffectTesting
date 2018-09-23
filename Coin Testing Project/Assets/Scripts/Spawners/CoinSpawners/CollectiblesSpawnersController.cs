@@ -80,25 +80,27 @@ namespace Spawners.CoinSpawners
             spawnersToReset.Add(spawnerToReset);
         }
 
-        public void PlaceASpawnerAt(GameObject target)
+        public void PlaceASpawnerAt(GameObject targetToSpawn, GameObject coinsTarget)
         {
             int index = GetSpawnerFreeIndex();
+            
             if (IndexIsValid(index))
             {
                 TakeSpawner(index);
-                collectiblesSpawnersTab[index].Spawn(target);
-                collectiblesSpawnersTab[index].transform.position = target.transform.position;
+                collectiblesSpawnersTab[index].Spawn(coinsTarget);
+                collectiblesSpawnersTab[index].transform.position = targetToSpawn.transform.position;
                 AddSpawnerToReset(index);
             }
         }
 
-        [SerializeField] private GameObject target = null;
+        [SerializeField] private GameObject spawningPoint = null;
+        [SerializeField] private GameObject endPoint = null;
         
         private void Update()
         {
             if (Input.GetKeyDown(KeyCode.A))
             {
-                PlaceASpawnerAt(target);
+                CollectibleSpawnerHandler.Controller.PlaceASpawnerAt(spawningPoint, endPoint);
             }
 
             if (spawnersToReset.Count >= 1)

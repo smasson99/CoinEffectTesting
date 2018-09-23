@@ -564,6 +564,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1112053891}
   - component: {fileID: 1112053890}
+  - component: {fileID: 1112053893}
   - component: {fileID: 1112053892}
   m_Layer: 0
   m_Name: CoinSpawnersController
@@ -618,7 +619,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: da44f8ff8bd635d46b14e2fd81434eeb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 1133650720}
+  spawningPoint: {fileID: 1133650720}
+  endPoint: {fileID: 1666261796}
+--- !u!114 &1112053893
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1112053889}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8762f8b8e33b5114f8664283c9dbda2c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1133650720 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1497330130831534, guid: dfc2da7e721412948ab0131405fb49cb,
@@ -988,6 +1001,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5bf10cdea1344482e91a4f2b58506b77, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1666261796 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1741594876713916, guid: 233fd6c1fab3e634392553771f14c209,
+    type: 2}
+  m_PrefabInternal: {fileID: 1584728206}
 --- !u!1 &1718884505
 GameObject:
   m_ObjectHideFlags: 0

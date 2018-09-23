@@ -15,12 +15,12 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: GoldCoinMaterial
-    second: {fileID: 2100000, guid: 2c034c3052369464d8b46b90373853ba, type: 2}
+    second: {fileID: 2100000, guid: 03d47be14eb34ec408e65d133d0c29b6, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: GoldInnerRingMaterial
-    second: {fileID: 2100000, guid: 6f7ac6eda24225b4d97e42863d95d98a, type: 2}
+    second: {fileID: 2100000, guid: 940bcdee652ed2b49b8f0b91b45c5f64, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
