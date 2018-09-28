@@ -1,17 +1,27 @@
-﻿using System.CodeDom.Compiler;
+﻿using System;
 using UnityEngine;
-using System.Collections;
 using System.Collections.Generic;
 
 namespace Spawners.CoinSpawners
 {
+    /// <summary>
+    /// CollectiblesSpawnersController is a component that places a collectible spawner on target position.
+    /// It must be called from the static Controller of the class CollectibleSpawnerHandler. After a collectible
+    /// spawner has been placed, there will be a delay shorter enough to let the ECS Systems deal with the instantiates.
+    /// After this delay is passed, however, the spawner placed will be reset and replaced on the SpawnersController's
+    /// position.
+    ///
+    /// Note that a short number of childrens of the GameObject of the CollectiblesSpawnersController
+    /// may bring cases where the spawner will just not be placed. This would be due to the fact that no spawners would
+    /// be Free at the frame where the CollectiblesSpawnersController was called.
+    /// </summary>
     public class CollectiblesSpawnersController : MonoBehaviour
     {
         private const int PLACE_TAKEN_VALUE = -1;
         private const int PLACE_FREE_VALUE = 1;
         private const float TIME_BEFORE_RESET = 0.25f;
-        private CollectiblesSpawner[] collectiblesSpawnersTab = null;
-        private int[] spawnersIndexTab = null;
+        private CollectiblesSpawner[] collectiblesSpawnersTab;
+        private int[] spawnersIndexTab;
 
         private struct SpawnerToReset
         {
@@ -20,18 +30,15 @@ namespace Spawners.CoinSpawners
         }
 
         private List<SpawnerToReset> spawnersToReset;
-        
+
         private void Awake()
         {
-            InitialiseCollections();
+            InitializeCollections();
 
-            if (collectiblesSpawnersTab.Length <= 0)
-            {
-                Debug.Log("No spawners found in childrens!");
-            }
+            VerifyCollections();
         }
 
-        private void InitialiseCollections()
+        private void InitializeCollections()
         {
             collectiblesSpawnersTab = GetComponentsInChildren<CollectiblesSpawner>();
             spawnersIndexTab = new int[collectiblesSpawnersTab.Length];
@@ -40,8 +47,16 @@ namespace Spawners.CoinSpawners
             {
                 spawnersIndexTab[i] = PLACE_FREE_VALUE;
             }
-            
+
             spawnersToReset = new List<SpawnerToReset>();
+        }
+
+        private void VerifyCollections()
+        {
+            if (collectiblesSpawnersTab.Length <= 0)
+            {
+                throw new ArgumentException("No " + typeof(CollectiblesSpawner).Name + " found in childrens!");
+            }
         }
 
         private void TakeSpawner(int index)
@@ -80,28 +95,40 @@ namespace Spawners.CoinSpawners
             spawnersToReset.Add(spawnerToReset);
         }
 
-        public void PlaceASpawnerAt(GameObject targetToSpawn, GameObject coinsTarget, int numberOfInstantiates)
+        /// <summary>
+        /// Function wich places a Collectible Spawner to a GameObject's position.
+        /// </summary>
+        /// <param name="gameObjectToSpawnTo">The GameObject to place the spawner on.</param>
+        /// <param name="collectiblesTarget">The GameObject that will recieve the collectibles after their spawn.</param>
+        /// <param name="numberOfInstantiates">The number of collectibles that will be spawned at the spawner position.</param>
+        public void PlaceASpawnerAt(GameObject gameObjectToSpawnTo, GameObject collectiblesTarget,
+            int numberOfInstantiates)
         {
             int index = GetSpawnerFreeIndex();
-            
+
             if (IndexIsValid(index))
             {
                 TakeSpawner(index);
-                collectiblesSpawnersTab[index].Spawn(coinsTarget, numberOfInstantiates);
-                collectiblesSpawnersTab[index].transform.position = targetToSpawn.transform.position;
+                collectiblesSpawnersTab[index].Spawn(collectiblesTarget, numberOfInstantiates);
+                collectiblesSpawnersTab[index].transform.position = gameObjectToSpawnTo.transform.position;
                 AddSpawnerToReset(index);
             }
         }
 
+        //todo when merging : remove those serializeField
         [SerializeField] private GameObject spawningPoint = null;
+
         [SerializeField] private GameObject endPoint = null;
-        
+        //
+
         private void Update()
         {
+            //todo when merging : remove this part
             if (Input.GetKeyDown(KeyCode.A))
             {
                 CollectibleSpawnerHandler.Controller.PlaceASpawnerAt(spawningPoint, endPoint, 100);
             }
+            //
 
             if (spawnersToReset.Count >= 1)
             {
@@ -117,6 +144,7 @@ namespace Spawners.CoinSpawners
                     }
                 }
 
+                //Cannot remove "spawnerToReset" inside the first foreach
                 foreach (SpawnerToReset spawnerToReset in garbageCollector)
                 {
                     spawnersToReset.Remove(spawnerToReset);

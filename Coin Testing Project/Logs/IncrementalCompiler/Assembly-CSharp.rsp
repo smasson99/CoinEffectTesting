@@ -308,12 +308,12 @@
 -d:ENABLE_UNITY_COLLECTIONS_CHECKS
 -d:ENABLE_BURST_AOT
 -d:UNITY_TEAM_LICENSE
--i:"C:/Users/smass/Desktop/CoinEffectTesting/Coin Testing Project/Assets/Scripts/Collectibles/CollectibleDestroyerSystem.cs"
 -i:"C:/Users/smass/Desktop/CoinEffectTesting/Coin Testing Project/Assets/Scripts/Collectibles/CollectibleRotator.cs"
 -i:"C:/Users/smass/Desktop/CoinEffectTesting/Coin Testing Project/Assets/Scripts/Collectibles/CollectibleRotatorSystem.cs"
+-i:"C:/Users/smass/Desktop/CoinEffectTesting/Coin Testing Project/Assets/Scripts/Collectibles/CollectiblesDestroyerSystem.cs"
 -i:"C:/Users/smass/Desktop/CoinEffectTesting/Coin Testing Project/Assets/Scripts/Collectibles/CollectibleTranslator.cs"
 -i:"C:/Users/smass/Desktop/CoinEffectTesting/Coin Testing Project/Assets/Scripts/Collectibles/CollectibleTranslatorSystem.cs"
--i:"C:/Users/smass/Desktop/CoinEffectTesting/Coin Testing Project/Assets/Scripts/Ennemies/EnnemyController.cs"
+-i:"C:/Users/smass/Desktop/CoinEffectTesting/Coin Testing Project/Assets/Scripts/Enemies/EnemyController.cs"
 -i:"C:/Users/smass/Desktop/CoinEffectTesting/Coin Testing Project/Assets/Scripts/Gravity/GravityForce.cs"
 -i:"C:/Users/smass/Desktop/CoinEffectTesting/Coin Testing Project/Assets/Scripts/Gravity/GravitySystem.cs"
 -i:"C:/Users/smass/Desktop/CoinEffectTesting/Coin Testing Project/Assets/Scripts/Inputs/InputSystem.cs"
@@ -330,5 +330,4 @@
 -i:"C:/Users/smass/Desktop/CoinEffectTesting/Coin Testing Project/Assets/Scripts/Spawners/CoinSpawners/CollectiblesSpawnerSystem.cs"
 -i:"C:/Users/smass/Desktop/CoinEffectTesting/Coin Testing Project/Assets/Scripts/Spawners/CoinSpawners/CollectibleValue.cs"
 -i:"C:/Users/smass/Desktop/CoinEffectTesting/Coin Testing Project/Assets/Scripts/Tags/Tags.cs"
--i:"C:/Users/smass/Desktop/CoinEffectTesting/Coin Testing Project/Assets/Scripts/Utils/MathPositionUtils.cs"
 -v:0

@@ -5,7 +5,12 @@ using UnityEngine;
 
 namespace Collectibles
 {
-    public class CollectibleDestroyerSystem : ComponentSystem
+    /// <summary>
+    /// CollectiblesDestroyerSystem is a ECS System that destroys the collectibles GameObjects when they are
+    /// close enough to their destinator. This system also adds gold into the inventory of the target player
+    /// equivalent to the collectibles value.
+    /// </summary>
+    public class CollectiblesDestroyerSystem : ComponentSystem
     {
         private struct Filter
         {

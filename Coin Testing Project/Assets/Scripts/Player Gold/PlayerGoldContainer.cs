@@ -2,6 +2,7 @@
 
 namespace Player_Gold
 {
+    //todo when merging: destroy this file
     public delegate void OnGoldPieceAdded(int currentNumberOfGold);
     
     public class PlayerGoldContainer : MonoBehaviour
@@ -31,4 +32,5 @@ namespace Player_Gold
             NotifyGoldPieceAdded();
         }
     }
+    //
 }

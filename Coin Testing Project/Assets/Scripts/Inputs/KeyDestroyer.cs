@@ -2,6 +2,7 @@
 
 namespace Inputs
 {
+    //todo when merging: destroy this file
     public class KeyDestroyer : MonoBehaviour
     {
         [Tooltip("The key to prew to destroy this object.")] [SerializeField]

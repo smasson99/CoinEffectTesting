@@ -7,14 +7,14 @@
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
           <e p="Collectibles" t="Include">
-            <e p="CollectibleDestroyerSystem.cs" t="Include" />
             <e p="CollectibleRotator.cs" t="Include" />
             <e p="CollectibleRotatorSystem.cs" t="Include" />
+            <e p="CollectiblesDestroyerSystem.cs" t="Include" />
             <e p="CollectibleTranslator.cs" t="Include" />
             <e p="CollectibleTranslatorSystem.cs" t="Include" />
           </e>
-          <e p="Ennemies" t="Include">
-            <e p="EnnemyController.cs" t="Include" />
+          <e p="Enemies" t="Include">
+            <e p="EnemyController.cs" t="Include" />
           </e>
           <e p="Gravity" t="Include">
             <e p="GravityForce.cs" t="Include" />
@@ -45,9 +45,6 @@
           </e>
           <e p="Tags" t="Include">
             <e p="Tags.cs" t="Include" />
-          </e>
-          <e p="Utils" t="Include">
-            <e p="MathPositionUtils.cs" t="Include" />
           </e>
         </e>
       </e>

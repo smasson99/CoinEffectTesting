@@ -26,11 +26,12 @@ namespace Spawners.CoinSpawners
                 }
             }
 
+            //GetEntities list is dealocated when an Instantiate is done inside, the two foreach are REQUIRED
             foreach (CollectiblesSpawnersFilter entity in collectiblesSpawnersToSpawn)
             {
                 PlayerGoldContainer goldContainer =
                     entity.CollectiblesSpawner.CoinTarget.GetComponent<PlayerGoldContainer>();
-                for (int i = 0; i < entity.CollectiblesSpawner.NumberOfCollectiblesToSpawn; ++i)
+                for (int i = 0; i < entity.CollectiblesSpawner.NumberOfCollectibles; ++i)
                 {
                     GameObject instantiate = GameObject.Instantiate(entity.CollectiblesSpawner.CollectiblePrefab);
                     instantiate.transform.position = entity.Transform.position;

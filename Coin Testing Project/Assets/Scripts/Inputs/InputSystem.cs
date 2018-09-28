@@ -3,6 +3,7 @@ using UnityEngine;
 
 namespace Inputs
 {
+    //todo when merging: destroy this file
     public class InputSystem : ComponentSystem
     {
         private struct KeyDestroyersEntityFilter

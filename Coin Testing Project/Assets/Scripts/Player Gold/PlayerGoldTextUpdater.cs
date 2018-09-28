@@ -4,6 +4,7 @@ using UnityEngine.UI;
 
 namespace Player_Gold
 {
+    //todo when merging: destroy this file
     public class PlayerGoldTextUpdater : MonoBehaviour
     {
         private Text goldText;
@@ -49,4 +50,5 @@ namespace Player_Gold
             goldText.text = "Gold: " + currentNumberOfGold;
         }
     }
+    //
 }

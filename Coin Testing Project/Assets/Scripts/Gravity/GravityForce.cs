@@ -2,6 +2,9 @@
 
 namespace Gravity
 {
+    /// <summary>
+    /// ECS Component that contains the data required in order to simulate the gravity force on a CharacterController.
+    /// </summary>
     public class GravityForce : MonoBehaviour
     {
         [Tooltip("The gravity force to apply to this GameObject")]

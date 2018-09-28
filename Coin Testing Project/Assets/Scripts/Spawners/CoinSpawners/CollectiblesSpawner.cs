@@ -1,57 +1,47 @@
 ﻿using UnityEngine;
 
-namespace Spawners
+namespace Spawners.CoinSpawners
 {
+    /// <summary>
+    /// CollectiblesSpawner is a ECS component that contains the data required in order for the ECS Systems to spawn
+    /// collectibles on it.
+    /// </summary>
     public class CollectiblesSpawner : MonoBehaviour
     {
-        [Tooltip("The number of collectibles to spawn.")] [SerializeField]
-        private int numberOfCollectiblesToSpawn = 10;
-
         [Tooltip("The prefab to spawn.")] [SerializeField]
-        private GameObject collectiblePrefab = null;
+        private GameObject collectiblePrefab;
 
-        private bool isSpawning = false;
-        private GameObject coinTarget;
-
-        public GameObject CoinTarget
+        private void Spawn(GameObject collectiblesDestinator)
         {
-            get => coinTarget;
-            private set => coinTarget = value;
+            IsSpawning = true;
+            CoinTarget = collectiblesDestinator;
         }
 
-        public int NumberOfCollectiblesToSpawn
-        {
-            get => numberOfCollectiblesToSpawn;
-            set => numberOfCollectiblesToSpawn = value;
-        }
+        public GameObject CoinTarget { get; private set; }
 
-        public GameObject CollectiblePrefab
-        {
-            get => collectiblePrefab;
-            private set => collectiblePrefab = value;
-        }
+        public int NumberOfCollectibles { get; private set; } = 10;
 
-        public bool IsSpawning
-        {
-            get => isSpawning;
-            private set => isSpawning = value;
-        }
+        public bool IsSpawning { get; private set; }
+        
+        public GameObject CollectiblePrefab => collectiblePrefab;
 
-        public void Spawn(GameObject target, int numberOfInstatiates)
+        /// <summary>
+        /// Function wich initializes the data required for the ECS Systems to spawn the collectibles.
+        /// After the call of this function, the Systems will see this spawner as a "Spawner to spawn".
+        /// </summary>
+        /// <param name="collectiblesDestinator">GameObject that represents the player or the entity that will recieve
+        /// the collectibles after their spawn.</param>
+        /// <param name="numberOfCollectibles">Integer that represent the number of collectibles to spawn to this
+        /// spawner.</param>
+        public void Spawn(GameObject collectiblesDestinator, int numberOfCollectibles)
         {
-            numberOfCollectiblesToSpawn = numberOfInstatiates;
-            Spawn(target);
-        }
-
-        public void Spawn(GameObject target)
-        {
-            isSpawning = true;
-            coinTarget = target;
+            NumberOfCollectibles = numberOfCollectibles;
+            Spawn(collectiblesDestinator);
         }
 
         public void NotifySpawned()
         {
-            isSpawning = false;
+            IsSpawning = false;
         }
     }
 }

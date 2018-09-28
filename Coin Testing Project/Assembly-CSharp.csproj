@@ -54,12 +54,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\Collectibles\CollectibleDestroyerSystem.cs" />
     <Compile Include="Assets\Scripts\Collectibles\CollectibleRotator.cs" />
     <Compile Include="Assets\Scripts\Collectibles\CollectibleRotatorSystem.cs" />
+    <Compile Include="Assets\Scripts\Collectibles\CollectiblesDestroyerSystem.cs" />
     <Compile Include="Assets\Scripts\Collectibles\CollectibleTranslator.cs" />
     <Compile Include="Assets\Scripts\Collectibles\CollectibleTranslatorSystem.cs" />
-    <Compile Include="Assets\Scripts\Ennemies\EnnemyController.cs" />
+    <Compile Include="Assets\Scripts\Enemies\EnemyController.cs" />
     <Compile Include="Assets\Scripts\Gravity\GravityForce.cs" />
     <Compile Include="Assets\Scripts\Gravity\GravitySystem.cs" />
     <Compile Include="Assets\Scripts\Inputs\InputSystem.cs" />
@@ -76,7 +76,6 @@
     <Compile Include="Assets\Scripts\Spawners\CoinSpawners\CollectiblesSpawnerSystem.cs" />
     <Compile Include="Assets\Scripts\Spawners\CoinSpawners\CollectibleValue.cs" />
     <Compile Include="Assets\Scripts\Tags\Tags.cs" />
-    <Compile Include="Assets\Scripts\Utils\MathPositionUtils.cs" />
     <Reference Include="Unity.Entities.Properties">
       <HintPath>C:/Users/smass/Desktop/CoinEffectTesting/Coin Testing Project/Library/ScriptAssemblies/Unity.Entities.Properties.dll</HintPath>
     </Reference>

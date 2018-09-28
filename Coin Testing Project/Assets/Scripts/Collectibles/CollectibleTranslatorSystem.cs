@@ -30,7 +30,7 @@ namespace Collectibles
                     entity.CollectibleTranslator.SetInitialTarget(GenerateTarget(entity.Transform.position));
                     entity.CollectibleTranslator.NotifySpawned();
                 }
-                else if (!entity.CollectibleTranslator.WaitingPassed())
+                else if (!entity.CollectibleTranslator.WaitingPassed)
                 {
                     Vector3 targetPosition = entity.CollectibleTranslator.InitialTarget;
                     Vector3 translationVector3 = targetPosition - entity.Transform.position;

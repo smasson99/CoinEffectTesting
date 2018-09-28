@@ -3,6 +3,12 @@ using UnityEngine;
 
 namespace Gravity
 {
+    /// <summary>
+    /// ECS System that simulates the gravity uder it's entities.
+    ///
+    /// Note: The entities must posses a GravityForce component and a CharacterController component.
+    /// See GravityForce for more details.
+    /// </summary>
     public class GravitySystem : ComponentSystem
     {
         private struct GravityEntitiesFilter

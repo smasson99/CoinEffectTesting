@@ -3,6 +3,10 @@ using UnityEngine;
 
 namespace Collectibles
 {
+    /// <summary>
+    /// CollectibleRotatorSystem is an ECS System that rotates it's entities in a random direction. The direction is
+    /// choose at the first frame an entity appears in the GetEntities collection.
+    /// </summary>
     public class CollectibleRotatorSystem : ComponentSystem
     {
         private struct CollectibleRotatorFilter
