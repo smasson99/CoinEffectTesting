@@ -1,10 +1,14 @@
 ﻿using Spawners;
+using Spawners.CoinSpawners;
 using UnityEngine;
 
 namespace Ennemies
 {
+    //todo when merging: destroy this file
     public class EnnemyController : MonoBehaviour
     {
+        [SerializeField] private GameObject player = null;
+
         private CollectiblesSpawner collectiblesSpawner = null;
 
         private void Awake()
@@ -19,7 +23,8 @@ namespace Ennemies
 
         private void OnDestroy()
         {
-//            CollectibleSpawnerHandler.Spawn(collectiblesSpawner);
+            CollectibleSpawnerHandler.Controller.PlaceASpawnerAt(transform.root.gameObject, player,
+                Random.Range(10, 100));
         }
     }
 }
