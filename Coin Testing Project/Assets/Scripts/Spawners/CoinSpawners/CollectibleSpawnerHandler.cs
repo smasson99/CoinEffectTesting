@@ -1,7 +1,7 @@
-﻿using Spawners.CoinSpawners;
+﻿using System;
 using UnityEngine;
 
-namespace Spawners
+namespace Spawners.CoinSpawners
 {
     public class CollectibleSpawnerHandler : MonoBehaviour
     {
@@ -10,17 +10,21 @@ namespace Spawners
         private void Awake()
         {
             InitiateComponents();
-
-            if (controller == null)
-            {
-                Debug.Log("CollectiblesSpawnerController not found!");
-            }
+            VerifyComponents();
         }
 
         private void InitiateComponents()
         {
-            controller = GameObject.FindWithTag(Tags.Tags.COLLECTIBLE_SPAWNER)?
+            controller = GameObject.FindWithTag(Tags.Tags.CollectibleSpawnerTag)?
                 .GetComponent<CollectiblesSpawnersController>();
+        }
+
+        private void VerifyComponents()
+        {
+            if (controller == null)
+            {
+                throw new NullReferenceException(typeof(CollectiblesSpawnersController).Name + " not found!");
+            }
         }
 
         public static CollectiblesSpawnersController Controller

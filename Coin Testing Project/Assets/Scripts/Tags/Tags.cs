@@ -4,6 +4,7 @@ namespace Tags
 {
     public class Tags
     {
-        public const string COLLECTIBLE_SPAWNER = "CoinController";
+        public const string CollectibleSpawnerTag = "CoinController";
+        public const string PlayerTag = "Player";
     }
 }

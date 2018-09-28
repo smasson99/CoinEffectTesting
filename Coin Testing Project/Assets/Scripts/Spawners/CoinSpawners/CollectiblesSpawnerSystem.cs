@@ -1,6 +1,7 @@
 ﻿using System.Threading;
 using Boo.Lang;
 using Collectibles;
+using Player_Gold;
 using Unity.Entities;
 using UnityEngine;
 
@@ -27,13 +28,15 @@ namespace Spawners.CoinSpawners
 
             foreach (CollectiblesSpawnersFilter entity in collectiblesSpawnersToSpawn)
             {
+                PlayerGoldContainer goldContainer =
+                    entity.CollectiblesSpawner.CoinTarget.GetComponent<PlayerGoldContainer>();
                 for (int i = 0; i < entity.CollectiblesSpawner.NumberOfCollectiblesToSpawn; ++i)
                 {
                     GameObject instantiate = GameObject.Instantiate(entity.CollectiblesSpawner.CollectiblePrefab);
                     instantiate.transform.position = entity.Transform.position;
                     instantiate.GetComponent<CollectibleTranslator>()
-                        ?.SetTarget(entity.CollectiblesSpawner.CoinTarget);
-                    
+                        ?.SetTarget(entity.CollectiblesSpawner.CoinTarget, goldContainer);
+
                     entity.CollectiblesSpawner.NotifySpawned();
                 }
             }

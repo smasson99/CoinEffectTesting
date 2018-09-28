@@ -5,11 +5,6 @@
 -out:"C:/Users/smass/Desktop/CoinEffectTesting/Coin Testing Project/Temp/Assembly-CSharp.dll"
 -nostdlib
 -unsafe
--r:"C:/Users/smass/Desktop/CoinEffectTesting/Coin Testing Project/Library/ScriptAssemblies/Unity.Entities.Properties.dll"
--r:"C:/Users/smass/Desktop/CoinEffectTesting/Coin Testing Project/Library/ScriptAssemblies/Unity.Properties.Codegen.dll"
--r:"C:/Users/smass/Desktop/CoinEffectTesting/Coin Testing Project/Library/ScriptAssemblies/Unity.Entities.Editor.dll"
--r:"C:/Users/smass/Desktop/CoinEffectTesting/Coin Testing Project/Library/ScriptAssemblies/Unity.Properties.dll"
--r:"C:/Users/smass/Desktop/CoinEffectTesting/Coin Testing Project/Library/ScriptAssemblies/Unity.Properties.Editor.dll"
 -r:"C:\Program Files\Unity\Hub\Editor\2018.2.8f1\Editor\Data\Managed/UnityEngine/UnityEngine.dll"
 -r:"C:\Program Files\Unity\Hub\Editor\2018.2.8f1\Editor\Data\Managed/UnityEngine/UnityEngine.AIModule.dll"
 -r:"C:\Program Files\Unity\Hub\Editor\2018.2.8f1\Editor\Data\Managed/UnityEngine/UnityEngine.ARModule.dll"
@@ -72,14 +67,19 @@
 -r:"C:\Program Files\Unity\Hub\Editor\2018.2.8f1\Editor\Data\Managed/UnityEngine/UnityEngine.XRModule.dll"
 -r:"C:\Program Files\Unity\Hub\Editor\2018.2.8f1\Editor\Data\Managed/UnityEditor.dll"
 -r:"C:\Program Files\Unity\Hub\Editor\2018.2.8f1\Editor\Data\Managed/Unity.Locator.dll"
+-r:"C:/Users/smass/Desktop/CoinEffectTesting/Coin Testing Project/Library/ScriptAssemblies/Unity.Entities.Properties.dll"
+-r:"C:/Users/smass/Desktop/CoinEffectTesting/Coin Testing Project/Library/ScriptAssemblies/Unity.Properties.Codegen.dll"
 -r:"C:/Users/smass/Desktop/CoinEffectTesting/Coin Testing Project/Library/ScriptAssemblies/Unity.Jobs.dll"
 -r:"C:/Users/smass/Desktop/CoinEffectTesting/Coin Testing Project/Library/ScriptAssemblies/Unity.Jobs.Editor.dll"
+-r:"C:/Users/smass/Desktop/CoinEffectTesting/Coin Testing Project/Library/ScriptAssemblies/Unity.Entities.Editor.dll"
+-r:"C:/Users/smass/Desktop/CoinEffectTesting/Coin Testing Project/Library/ScriptAssemblies/Unity.Properties.dll"
 -r:"C:/Users/smass/Desktop/CoinEffectTesting/Coin Testing Project/Library/ScriptAssemblies/Unity.Collections.dll"
 -r:"C:/Users/smass/Desktop/CoinEffectTesting/Coin Testing Project/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll"
 -r:"C:/Users/smass/Desktop/CoinEffectTesting/Coin Testing Project/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll"
 -r:"C:/Users/smass/Desktop/CoinEffectTesting/Coin Testing Project/Library/ScriptAssemblies/Unity.Burst.dll"
 -r:"C:/Users/smass/Desktop/CoinEffectTesting/Coin Testing Project/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll"
 -r:"C:/Users/smass/Desktop/CoinEffectTesting/Coin Testing Project/Library/ScriptAssemblies/Unity.Rendering.Hybrid.dll"
+-r:"C:/Users/smass/Desktop/CoinEffectTesting/Coin Testing Project/Library/ScriptAssemblies/Unity.Properties.Editor.dll"
 -r:"C:/Users/smass/Desktop/CoinEffectTesting/Coin Testing Project/Library/ScriptAssemblies/Unity.Entities.Hybrid.dll"
 -r:"C:/Users/smass/Desktop/CoinEffectTesting/Coin Testing Project/Library/ScriptAssemblies/Unity.Mathematics.dll"
 -r:"C:/Users/smass/Desktop/CoinEffectTesting/Coin Testing Project/Library/ScriptAssemblies/Unity.Entities.dll"
@@ -308,6 +308,7 @@
 -d:ENABLE_UNITY_COLLECTIONS_CHECKS
 -d:ENABLE_BURST_AOT
 -d:UNITY_TEAM_LICENSE
+-i:"C:/Users/smass/Desktop/CoinEffectTesting/Coin Testing Project/Assets/Scripts/Collectibles/CollectibleDestroyerSystem.cs"
 -i:"C:/Users/smass/Desktop/CoinEffectTesting/Coin Testing Project/Assets/Scripts/Collectibles/CollectibleRotator.cs"
 -i:"C:/Users/smass/Desktop/CoinEffectTesting/Coin Testing Project/Assets/Scripts/Collectibles/CollectibleRotatorSystem.cs"
 -i:"C:/Users/smass/Desktop/CoinEffectTesting/Coin Testing Project/Assets/Scripts/Collectibles/CollectibleTranslator.cs"
@@ -321,10 +322,13 @@
 -i:"C:/Users/smass/Desktop/CoinEffectTesting/Coin Testing Project/Assets/Scripts/Navmesh/NavMeshModifier.cs"
 -i:"C:/Users/smass/Desktop/CoinEffectTesting/Coin Testing Project/Assets/Scripts/Navmesh/NavMeshModifierVolume.cs"
 -i:"C:/Users/smass/Desktop/CoinEffectTesting/Coin Testing Project/Assets/Scripts/Navmesh/NavMeshSurface.cs"
+-i:"C:/Users/smass/Desktop/CoinEffectTesting/Coin Testing Project/Assets/Scripts/Player Gold/PlayerGoldContainer.cs"
+-i:"C:/Users/smass/Desktop/CoinEffectTesting/Coin Testing Project/Assets/Scripts/Player Gold/PlayerGoldTextUpdater.cs"
 -i:"C:/Users/smass/Desktop/CoinEffectTesting/Coin Testing Project/Assets/Scripts/Spawners/CoinSpawners/CollectibleSpawnerHandler.cs"
 -i:"C:/Users/smass/Desktop/CoinEffectTesting/Coin Testing Project/Assets/Scripts/Spawners/CoinSpawners/CollectiblesSpawner.cs"
 -i:"C:/Users/smass/Desktop/CoinEffectTesting/Coin Testing Project/Assets/Scripts/Spawners/CoinSpawners/CollectiblesSpawnersController.cs"
 -i:"C:/Users/smass/Desktop/CoinEffectTesting/Coin Testing Project/Assets/Scripts/Spawners/CoinSpawners/CollectiblesSpawnerSystem.cs"
+-i:"C:/Users/smass/Desktop/CoinEffectTesting/Coin Testing Project/Assets/Scripts/Spawners/CoinSpawners/CollectibleValue.cs"
 -i:"C:/Users/smass/Desktop/CoinEffectTesting/Coin Testing Project/Assets/Scripts/Tags/Tags.cs"
 -i:"C:/Users/smass/Desktop/CoinEffectTesting/Coin Testing Project/Assets/Scripts/Utils/MathPositionUtils.cs"
 -v:0

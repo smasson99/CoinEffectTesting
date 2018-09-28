@@ -2,15 +2,84 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c7d84b61-6125-4401-a92f-f75c75b4f0c1" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Coin Testing Project/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Coin Testing Project/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Coin Testing Project/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Coin Testing Project/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Coin Testing Project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Coin Testing Project/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Prefabs/Coin Prefab.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Prefabs/Coin Prefab.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Prefabs/Player.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Spawning Testing Scene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Spawning Testing Scene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Collectibles/CollectibleTranslator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Collectibles/CollectibleTranslator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Spawners/CoinSpawners/CollectibleSpawnerHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Spawners/CoinSpawners/CollectibleSpawnerHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Spawners/CoinSpawners/CollectiblesSpawnerSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Spawners/CoinSpawners/CollectiblesSpawnerSystem.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Spawners/CoinSpawners/CollectiblesSpawnersController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Spawners/CoinSpawners/CollectiblesSpawnersController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Tags/Tags.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Tags/Tags.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/CurrentLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/Library/CurrentLayout.dwlt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/CurrentMaximizeLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/Library/CurrentMaximizeLayout.dwlt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Burst.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Burst.Editor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Burst.Editor.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Burst.Editor.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Burst.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Burst.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Burst.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Burst.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Collections.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Collections.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Collections.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Collections.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Entities.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Entities.Editor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Entities.Editor.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Entities.Editor.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Entities.Hybrid.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Entities.Hybrid.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Entities.Hybrid.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Entities.Hybrid.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Entities.Properties.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Entities.Properties.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Entities.Properties.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Entities.Properties.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Entities.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Entities.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Entities.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Entities.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Jobs.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Jobs.Editor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Jobs.Editor.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Jobs.Editor.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Jobs.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Jobs.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Jobs.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Jobs.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Mathematics.Editor.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Mathematics.Editor.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Mathematics.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Mathematics.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Mathematics.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Mathematics.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Properties.Codegen.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Properties.Codegen.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Properties.Codegen.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Properties.Codegen.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Properties.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Properties.Editor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Properties.Editor.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Properties.Editor.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Properties.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Properties.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Properties.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Properties.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Rendering.Hybrid.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Rendering.Hybrid.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Rendering.Hybrid.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Rendering.Hybrid.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.TextMeshPro.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.TextMeshPro.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.TextMeshPro.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.TextMeshPro.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Transforms.Hybrid.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Transforms.Hybrid.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Transforms.Hybrid.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Transforms.Hybrid.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Transforms.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Transforms.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Transforms.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Transforms.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEditor.StandardEvents.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEditor.StandardEvents.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/assetDatabase3" beforeDir="false" afterPath="$PROJECT_DIR$/Library/assetDatabase3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/23/233fd6c1fab3e634392553771f14c209.info" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/23/233fd6c1fab3e634392553771f14c209.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/2f/2fc37c70218ff664e89eaae9b15a042c.info" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/2f/2fc37c70218ff664e89eaae9b15a042c.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/87/8762f8b8e33b5114f8664283c9dbda2c" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/87/8762f8b8e33b5114f8664283c9dbda2c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/87/8762f8b8e33b5114f8664283c9dbda2c.info" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/87/8762f8b8e33b5114f8664283c9dbda2c.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/90/90ef915788e9ae84989821256337e1bd" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/90/90ef915788e9ae84989821256337e1bd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/d9/d939fd419b4871148a02203f6ec496f1" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/d9/d939fd419b4871148a02203f6ec496f1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/metadata/da/da44f8ff8bd635d46b14e2fd81434eeb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/da/da44f8ff8bd635d46b14e2fd81434eeb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/f3/f3b7c858c237fc44ebd09edc5bfccac0" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/f3/f3b7c858c237fc44ebd09edc5bfccac0" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/IncrementalCompiler/Assembly-CSharp.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/IncrementalCompiler/Assembly-CSharp.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/IncrementalCompiler/Unity.Entities.Editor.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/IncrementalCompiler/Unity.Entities.Editor.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/IncrementalCompiler/Unity.Entities.Properties.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/IncrementalCompiler/Unity.Entities.Properties.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Coin/unity_incremental_compiler_server.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Coin/unity_incremental_compiler_server.log" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,117 +119,74 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file leaf-file-name="CollectiblesSpawnersController.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Spawners/CoinSpawners/CollectiblesSpawnersController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
-              <caret line="103" column="13" lean-forward="true" selection-start-line="103" selection-start-column="13" selection-end-line="103" selection-end-column="13" />
+            <state relative-caret-position="510">
+              <caret line="103" column="13" selection-start-line="103" selection-start-column="13" selection-end-line="103" selection-end-column="13" />
               <folding>
-                <marker date="1537728812557" expanded="false" signature="6:109" ph="..." />
-                <marker date="1537728812557" expanded="true" signature="142:3949" ph="{...}" />
-                <marker date="1537728812557" expanded="true" signature="208:3947" ph="{...}" />
-                <marker date="1537728812557" expanded="true" signature="522:607" ph="{...}" />
-                <marker date="1537728812557" expanded="true" signature="700:901" ph="{...}" />
-                <marker date="1537728812557" expanded="true" signature="801:891" ph="{...}" />
-                <marker date="1537728812557" expanded="true" signature="947:1350" ph="{...}" />
-                <marker date="1537728812557" expanded="true" signature="1185:1269" ph="{...}" />
-                <marker date="1537728812557" expanded="true" signature="1395:1472" ph="{...}" />
-                <marker date="1537728812557" expanded="true" signature="1517:1593" ph="{...}" />
-                <marker date="1537728812557" expanded="true" signature="1639:1690" ph="{...}" />
-                <marker date="1537728812557" expanded="true" signature="1733:1978" ph="{...}" />
-                <marker date="1537728812557" expanded="true" signature="1805:1944" ph="{...}" />
-                <marker date="1537728812557" expanded="true" signature="1864:1930" ph="{...}" />
-                <marker date="1537728812557" expanded="true" signature="2029:2275" ph="{...}" />
-                <marker date="1537728812557" expanded="true" signature="2388:2802" ph="{...}" />
-                <marker date="1537728812557" expanded="true" signature="2495:2792" ph="{...}" />
-                <marker date="1537728812557" expanded="true" signature="2969:3941" ph="{...}" />
-                <marker date="1537728812557" expanded="true" signature="3024:3151" ph="{...}" />
-                <marker date="1537728812557" expanded="true" signature="3196:3931" ph="{...}" />
-                <marker date="1537728812557" expanded="true" signature="3370:3744" ph="{...}" />
-                <marker date="1537728812557" expanded="true" signature="3450:3726" ph="{...}" />
-                <marker date="1537728812557" expanded="true" signature="3821:3917" ph="{...}" />
+                <marker date="1538091371084" expanded="false" signature="6:109" ph="..." />
+                <marker date="1538091371084" expanded="true" signature="142:3967" ph="{...}" />
+                <marker date="1538091371084" expanded="true" signature="208:3965" ph="{...}" />
+                <marker date="1538091371084" expanded="true" signature="523:608" ph="{...}" />
+                <marker date="1538091371084" expanded="true" signature="701:902" ph="{...}" />
+                <marker date="1538091371084" expanded="true" signature="802:892" ph="{...}" />
+                <marker date="1538091371084" expanded="true" signature="948:1351" ph="{...}" />
+                <marker date="1538091371084" expanded="true" signature="1186:1270" ph="{...}" />
+                <marker date="1538091371084" expanded="true" signature="1396:1473" ph="{...}" />
+                <marker date="1538091371084" expanded="true" signature="1518:1594" ph="{...}" />
+                <marker date="1538091371084" expanded="true" signature="1640:1691" ph="{...}" />
+                <marker date="1538091371084" expanded="true" signature="1734:1995" ph="{...}" />
+                <marker date="1538091371084" expanded="true" signature="1806:1961" ph="{...}" />
+                <marker date="1538091371084" expanded="true" signature="1881:1947" ph="{...}" />
+                <marker date="1538091371084" expanded="true" signature="2046:2292" ph="{...}" />
+                <marker date="1538091371084" expanded="true" signature="2405:2819" ph="{...}" />
+                <marker date="1538091371084" expanded="true" signature="2512:2809" ph="{...}" />
+                <marker date="1538091371084" expanded="true" signature="2986:3959" ph="{...}" />
+                <marker date="1538091371084" expanded="true" signature="3041:3169" ph="{...}" />
+                <marker date="1538091371084" expanded="true" signature="3214:3949" ph="{...}" />
+                <marker date="1538091371084" expanded="true" signature="3388:3762" ph="{...}" />
+                <marker date="1538091371084" expanded="true" signature="3468:3744" ph="{...}" />
+                <marker date="1538091371084" expanded="true" signature="3839:3935" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file leaf-file-name="CollectibleSpawnerHandler.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Spawners/CoinSpawners/CollectibleSpawnerHandler.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+              <folding>
+                <marker date="1538098835284" expanded="true" signature="6:32" ph="..." />
+                <marker date="1538098835284" expanded="true" signature="65:931" ph="{...}" />
+                <marker date="1538098835284" expanded="true" signature="126:929" ph="{...}" />
+                <marker date="1538098835284" expanded="true" signature="228:314" ph="{...}" />
+                <marker date="1538098835284" expanded="true" signature="357:524" ph="{...}" />
+                <marker date="1538098835284" expanded="true" signature="565:760" ph="{...}" />
+                <marker date="1538098835284" expanded="true" signature="611:750" ph="{...}" />
+                <marker date="1538098835284" expanded="true" signature="825:923" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CollectiblesSpawner.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Spawners/CoinSpawners/CollectiblesSpawner.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="705">
-              <caret line="47" column="30" selection-start-line="47" selection-start-column="30" selection-end-line="47" selection-end-column="30" />
+            <state relative-caret-position="548">
+              <caret line="39" column="20" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
               <folding>
-                <marker date="1537715873594" expanded="true" signature="38:1425" ph="{...}" />
-                <marker date="1537715873594" expanded="true" signature="93:1423" ph="{...}" />
-                <marker date="1537715873594" expanded="true" signature="460:558" ph="{...}" />
-                <marker date="1537715873594" expanded="true" signature="606:730" ph="{...}" />
-                <marker date="1537715873594" expanded="true" signature="775:887" ph="{...}" />
-                <marker date="1537715873594" expanded="true" signature="919:1017" ph="{...}" />
-                <marker date="1537715873594" expanded="true" signature="1088:1198" ph="{...}" />
-                <marker date="1537715873594" expanded="true" signature="1244:1328" ph="{...}" />
-                <marker date="1537715873594" expanded="true" signature="1365:1417" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Collectibles/CollectibleTranslatorSystem.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="35" column="52" selection-start-line="35" selection-start-column="52" selection-end-line="35" selection-end-column="52" />
-              <folding>
-                <marker date="1537715873502" expanded="false" signature="6:40" ph="..." />
-                <marker date="1537715873502" expanded="true" signature="129:2211" ph="{...}" />
-                <marker date="1537715873502" expanded="true" signature="194:318" ph="{...}" />
-                <marker date="1537715873502" expanded="true" signature="539:815" ph="{...}" />
-                <marker date="1537715873502" expanded="true" signature="859:2205" ph="{...}" />
-                <marker date="1537715873502" expanded="true" signature="988:2195" ph="{...}" />
-                <marker date="1537715873502" expanded="true" signature="1063:1275" ph="{...}" />
-                <marker date="1537715873502" expanded="true" signature="1347:1725" ph="{...}" />
-                <marker date="1537715873502" expanded="true" signature="1746:2181" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Collectibles/CollectibleTranslator.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
-              <folding>
-                <marker date="1537715873501" expanded="false" signature="6:31" ph="..." />
-                <marker date="1537715873501" expanded="true" signature="112:1517" ph="{...}" />
-                <marker date="1537715873501" expanded="true" signature="259:347" ph="{...}" />
-                <marker date="1537715873501" expanded="true" signature="494:584" ph="{...}" />
-                <marker date="1537715873501" expanded="true" signature="622:726" ph="{...}" />
-                <marker date="1537715873501" expanded="true" signature="799:897" ph="{...}" />
-                <marker date="1537715873501" expanded="true" signature="1025:1079" ph="{...}" />
-                <marker date="1537715873501" expanded="true" signature="1116:1200" ph="{...}" />
-                <marker date="1537715873501" expanded="true" signature="1254:1310" ph="{...}" />
-                <marker date="1537715873501" expanded="true" signature="1360:1414" ph="{...}" />
-                <marker date="1537715873501" expanded="true" signature="1459:1511" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Spawners/CoinSpawners/CollectiblesSpawnerSystem.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="34" column="65" selection-start-line="34" selection-start-column="65" selection-end-line="34" selection-end-column="65" />
-              <folding>
-                <marker date="1537715873596" expanded="false" signature="6:100" ph="..." />
-                <marker date="1537715873596" expanded="true" signature="133:1519" ph="{...}" />
-                <marker date="1537715873596" expanded="true" signature="196:1517" ph="{...}" />
-                <marker date="1537715873596" expanded="true" signature="252:372" ph="{...}" />
-                <marker date="1537715873596" expanded="true" signature="416:1511" ph="{...}" />
-                <marker date="1537715873596" expanded="true" signature="642:826" ph="{...}" />
-                <marker date="1537715873596" expanded="true" signature="715:812" ph="{...}" />
-                <marker date="1537715873596" expanded="true" signature="914:1501" ph="{...}" />
-                <marker date="1537715873596" expanded="true" signature="1025:1487" ph="{...}" />
+                <marker date="1537394980006" expanded="true" signature="38:1425" ph="{...}" />
+                <marker date="1537394980006" expanded="true" signature="93:1423" ph="{...}" />
+                <marker date="1537394980006" expanded="true" signature="460:558" ph="{...}" />
+                <marker date="1537394980006" expanded="true" signature="606:730" ph="{...}" />
+                <marker date="1537394980006" expanded="true" signature="775:887" ph="{...}" />
+                <marker date="1537394980006" expanded="true" signature="919:1017" ph="{...}" />
+                <marker date="1537394980006" expanded="true" signature="1088:1198" ph="{...}" />
+                <marker date="1537394980006" expanded="true" signature="1244:1328" ph="{...}" />
+                <marker date="1537394980006" expanded="true" signature="1365:1417" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -172,24 +198,28 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Spawners/CoinSpawners/CollectiblesSpawnersController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Collectibles/CollectibleRotator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Gravity/GravityForce.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.entities@0.0.12-preview.13/Unity.Entities/ComponentSystem.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Collectibles/CollectibleRotatorSystem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Inputs/InputSystem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Spawners/CoinSpawners/CollectibleValue.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Inputs/KeyDestroyer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player Gold/PlayerGoldTextUpdater.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Collectibles/CollectibleTranslator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.entities@0.0.12-preview.13/Unity.Entities/ScriptBehaviourManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Gravity/GravitySystem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Ennemies/EnnemyController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Collectibles/CollectibleDestroyerSystem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Tags/Tags.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Utils/MathPositionUtils.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.entities@0.0.12-preview.13/Unity.Entities/ScriptBehaviourUpdateOrder.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player Gold/PlayerGoldContainer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Spawners/CoinSpawners/CollectiblesSpawnerSystem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Collectibles/CollectibleTranslatorSystem.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Spawners/CoinSpawners/CollectiblesSpawner.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Spawners/CoinSpawners/CollectibleSpawnerHandler.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Tags/Tags.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Collectibles/CollectibleTranslatorSystem.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Collectibles/CollectibleRotatorSystem.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Utils/MathPositionUtils.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Collectibles/CollectibleTranslator.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Inputs/InputSystem.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Collectibles/CollectibleRotator.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Inputs/KeyDestroyer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Gravity/GravityForce.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Gravity/GravitySystem.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$USER_HOME$/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.entities@0.0.12-preview.13/Unity.Entities/ScriptBehaviourManager.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Ennemies/EnnemyController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$USER_HOME$/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.entities@0.0.12-preview.13/Unity.Entities/ScriptBehaviourUpdateOrder.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$USER_HOME$/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.entities@0.0.12-preview.13/Unity.Entities/ComponentSystem.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Spawners/CoinSpawners/CollectiblesSpawnersController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Spawners/CoinSpawners/CollectiblesSpawnerSystem.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -211,16 +241,22 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Spawners/CollectibleSpawnerHandler.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Ennemies/EnnemyController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Spawners/CoinSpawners/CollectiblesSpawner.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Spawners/CoinSpawners/CollectiblesSpawnerSystem.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Collectibles/CollectibleInitializerSystem.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Collectibles/CollectibleInitializer.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Collectibles/CollectibleTranslator.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Collectibles/CollectibleRotator.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Collectibles/CollectibleRotatorSystem.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Collectibles/CollectibleTranslatorSystem.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Tags/Tags.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Spawners/CoinSpawners/CollectibleSpawnerHandler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Spawners/CoinSpawners/CollectibleValue.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Spawners/CoinSpawners/CollectiblesSensor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Spawners/CoinSpawners/CollectiblesStimulus.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Spawners/CoinSpawners/CollectiblesSpawnersController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Collectibles/CollectibleTranslator.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Spawners/CoinSpawners/CollectiblesSpawnerSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Collectibles/CollectibleDestroyerSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player Gold/PlayerGoldContainer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Tags/Tags.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player Gold/PlayerGoldTextUpdater.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Spawners/CoinSpawners/CollectibleSpawnerHandler.cs" />
       </list>
     </option>
   </component>
@@ -229,6 +265,9 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
@@ -246,48 +285,64 @@
         <subPane>
           <expand>
             <path>
-              <item name="Project" type="e068e287:UnityExplorerRootNode" />
-              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+              <item name="" type="ad4990d8:FileSystemViewPaneBase$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="Coin Testing Project" type="483dac07:UnityExplorerNode$Root" />
             </path>
             <path>
-              <item name="Project" type="e068e287:UnityExplorerRootNode" />
-              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
-              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
+              <item name="" type="ad4990d8:FileSystemViewPaneBase$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="Coin Testing Project" type="483dac07:UnityExplorerNode$Root" />
+              <item name="" type="1045f7f1:UnityExplorerNode" />
             </path>
             <path>
-              <item name="Project" type="e068e287:UnityExplorerRootNode" />
-              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
-              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
-              <item name="Collectibles" type="1045f7f1:UnityExplorerNode" />
+              <item name="" type="ad4990d8:FileSystemViewPaneBase$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="Coin Testing Project" type="483dac07:UnityExplorerNode$Root" />
+              <item name="" type="1045f7f1:UnityExplorerNode" />
+              <item name="" type="1045f7f1:UnityExplorerNode" />
             </path>
             <path>
-              <item name="Project" type="e068e287:UnityExplorerRootNode" />
-              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
-              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
-              <item name="Spawners" type="1045f7f1:UnityExplorerNode" />
+              <item name="" type="ad4990d8:FileSystemViewPaneBase$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="Coin Testing Project" type="483dac07:UnityExplorerNode$Root" />
+              <item name="" type="1045f7f1:UnityExplorerNode" />
             </path>
             <path>
-              <item name="Project" type="e068e287:UnityExplorerRootNode" />
-              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
-              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
-              <item name="Spawners" type="1045f7f1:UnityExplorerNode" />
-              <item name="CoinSpawners" type="1045f7f1:UnityExplorerNode" />
+              <item name="" type="ad4990d8:FileSystemViewPaneBase$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="Coin Testing Project" type="483dac07:UnityExplorerNode$Root" />
+              <item name="" type="1045f7f1:UnityExplorerNode" />
+              <item name="" type="1045f7f1:UnityExplorerNode" />
             </path>
             <path>
-              <item name="Project" type="e068e287:UnityExplorerRootNode" />
-              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
-              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
-              <item name="Tags" type="1045f7f1:UnityExplorerNode" />
+              <item name="" type="ad4990d8:FileSystemViewPaneBase$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="Coin Testing Project" type="483dac07:UnityExplorerNode$Root" />
+              <item name="" type="1045f7f1:UnityExplorerNode" />
+              <item name="" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="" type="ad4990d8:FileSystemViewPaneBase$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="Coin Testing Project" type="483dac07:UnityExplorerNode$Root" />
+              <item name="" type="1045f7f1:UnityExplorerNode" />
+              <item name="" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="" type="ad4990d8:FileSystemViewPaneBase$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="Coin Testing Project" type="483dac07:UnityExplorerNode$Root" />
+              <item name="" type="1045f7f1:UnityExplorerNode" />
+              <item name="" type="1045f7f1:UnityExplorerNode" />
+              <item name="" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="" type="ad4990d8:FileSystemViewPaneBase$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="Coin Testing Project" type="483dac07:UnityExplorerNode$Root" />
+              <item name="" type="1045f7f1:UnityExplorerNode" />
+              <item name="" type="1045f7f1:UnityExplorerNode" />
             </path>
           </expand>
           <select />
         </subPane>
         <option name="show-hidden-items" value="false" />
       </pane>
+      <pane id="Scratches" />
+      <pane id="SolutionExplorer" />
       <pane id="FileSystemExplorer" />
-      <pane id="SolutionExplorer">
-        <option name="show-all-files" value="false" />
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -307,7 +362,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+  <component name="RunManager" selected="Attach Unity.Attach to Unity Editor">
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
@@ -316,11 +371,9 @@
     <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
-      <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Attach to Unity Editor.Attach to Unity Editor" />
-      <item itemvalue="Attach to Unity Editor.Attach to Unity Editor &amp; Play" />
+      <item itemvalue="Attach Unity.Attach to Unity Editor" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -349,11 +402,14 @@
       <workItem from="1537482308053" duration="10351000" />
       <workItem from="1537726492079" duration="1365000" />
       <workItem from="1537728711923" duration="743000" />
+      <workItem from="1537890498457" duration="203000" />
+      <workItem from="1538076152422" duration="3819000" />
+      <workItem from="1538090576766" duration="7669000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53682000" />
+    <option name="totallyTimeSpent" value="65373000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -366,30 +422,31 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29317698" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39978212" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="NuGet" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Errors In Solution" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" weight="0.3286334" />
+      <window_info anchor="bottom" id="Unit Tests" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Terminal" order="12" weight="0.32897604" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30277187" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Unity" order="9" />
-      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Unit Tests" order="11" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="12" visible="true" weight="0.329718" />
-      <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" weight="0.3286334" />
-      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39978212" />
+      <window_info anchor="bottom" id="NuGet" order="7" show_stripe_button="false" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Errors In Solution" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Unit Tests Coverage" order="5" />
     </layout>
   </component>
@@ -412,6 +469,308 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Spawners/CoinSpawners/CollectiblesSpawnersController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1275">
+          <caret line="88" column="35" selection-start-line="88" selection-start-column="35" selection-end-line="88" selection-end-column="35" />
+          <folding>
+            <marker date="1538091371084" expanded="false" signature="6:109" ph="..." />
+            <marker date="1538091371084" expanded="true" signature="142:3967" ph="{...}" />
+            <marker date="1538091371084" expanded="true" signature="208:3965" ph="{...}" />
+            <marker date="1538091371084" expanded="true" signature="523:608" ph="{...}" />
+            <marker date="1538091371084" expanded="true" signature="701:902" ph="{...}" />
+            <marker date="1538091371084" expanded="true" signature="802:892" ph="{...}" />
+            <marker date="1538091371084" expanded="true" signature="948:1351" ph="{...}" />
+            <marker date="1538091371084" expanded="true" signature="1186:1270" ph="{...}" />
+            <marker date="1538091371084" expanded="true" signature="1396:1473" ph="{...}" />
+            <marker date="1538091371084" expanded="true" signature="1518:1594" ph="{...}" />
+            <marker date="1538091371084" expanded="true" signature="1640:1691" ph="{...}" />
+            <marker date="1538091371084" expanded="true" signature="1734:1995" ph="{...}" />
+            <marker date="1538091371084" expanded="true" signature="1806:1961" ph="{...}" />
+            <marker date="1538091371084" expanded="true" signature="1881:1947" ph="{...}" />
+            <marker date="1538091371084" expanded="true" signature="2046:2292" ph="{...}" />
+            <marker date="1538091371084" expanded="true" signature="2405:2819" ph="{...}" />
+            <marker date="1538091371084" expanded="true" signature="2512:2809" ph="{...}" />
+            <marker date="1538091371084" expanded="true" signature="2986:3959" ph="{...}" />
+            <marker date="1538091371084" expanded="true" signature="3041:3169" ph="{...}" />
+            <marker date="1538091371084" expanded="true" signature="3214:3949" ph="{...}" />
+            <marker date="1538091371084" expanded="true" signature="3388:3762" ph="{...}" />
+            <marker date="1538091371084" expanded="true" signature="3468:3744" ph="{...}" />
+            <marker date="1538091371084" expanded="true" signature="3839:3935" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Spawners/CoinSpawners/CollectiblesSpawner.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="39" column="20" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
+          <folding>
+            <marker date="1537394980006" expanded="true" signature="38:1425" ph="{...}" />
+            <marker date="1537394980006" expanded="true" signature="93:1423" ph="{...}" />
+            <marker date="1537394980006" expanded="true" signature="460:558" ph="{...}" />
+            <marker date="1537394980006" expanded="true" signature="606:730" ph="{...}" />
+            <marker date="1537394980006" expanded="true" signature="775:887" ph="{...}" />
+            <marker date="1537394980006" expanded="true" signature="919:1017" ph="{...}" />
+            <marker date="1537394980006" expanded="true" signature="1088:1198" ph="{...}" />
+            <marker date="1537394980006" expanded="true" signature="1244:1328" ph="{...}" />
+            <marker date="1537394980006" expanded="true" signature="1365:1417" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Collectibles/CollectibleTranslatorSystem.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="30" column="65" selection-start-line="30" selection-start-column="65" selection-end-line="30" selection-end-column="65" />
+          <folding>
+            <marker date="1537492604118" expanded="false" signature="6:40" ph="..." />
+            <marker date="1537492604118" expanded="true" signature="64:2213" ph="{...}" />
+            <marker date="1537492604118" expanded="true" signature="129:2211" ph="{...}" />
+            <marker date="1537492604118" expanded="true" signature="194:318" ph="{...}" />
+            <marker date="1537492604118" expanded="true" signature="539:815" ph="{...}" />
+            <marker date="1537492604118" expanded="true" signature="859:2205" ph="{...}" />
+            <marker date="1537492604118" expanded="true" signature="988:2195" ph="{...}" />
+            <marker date="1537492604118" expanded="true" signature="1063:1275" ph="{...}" />
+            <marker date="1537492604118" expanded="true" signature="1347:1725" ph="{...}" />
+            <marker date="1537492604118" expanded="true" signature="1746:2181" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Collectibles/CollectibleDestroyerSystem.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+          <folding>
+            <marker date="1538095720473" expanded="true" signature="6:103" ph="..." />
+            <marker date="1538095720473" expanded="true" signature="127:1467" ph="{...}" />
+            <marker date="1538095720473" expanded="true" signature="191:1465" ph="{...}" />
+            <marker date="1538095720473" expanded="true" signature="227:405" ph="{...}" />
+            <marker date="1538095720473" expanded="true" signature="508:674" ph="{...}" />
+            <marker date="1538095720473" expanded="true" signature="718:1459" ph="{...}" />
+            <marker date="1538095720473" expanded="true" signature="855:1185" ph="{...}" />
+            <marker date="1538095720473" expanded="true" signature="1084:1171" ph="{...}" />
+            <marker date="1538095720473" expanded="true" signature="1243:1449" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Collectibles/CollectibleTranslator.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+          <folding>
+            <marker date="1538094478633" expanded="true" signature="6:50" ph="..." />
+            <marker date="1538094478633" expanded="true" signature="74:1790" ph="{...}" />
+            <marker date="1538094478633" expanded="true" signature="131:1788" ph="{...}" />
+            <marker date="1538094478633" expanded="true" signature="336:424" ph="{...}" />
+            <marker date="1538094478633" expanded="true" signature="571:661" ph="{...}" />
+            <marker date="1538094478633" expanded="true" signature="699:803" ph="{...}" />
+            <marker date="1538094478633" expanded="true" signature="876:974" ph="{...}" />
+            <marker date="1538094478633" expanded="true" signature="1102:1156" ph="{...}" />
+            <marker date="1538094478633" expanded="true" signature="1273:1357" ph="{...}" />
+            <marker date="1538094478633" expanded="true" signature="1411:1467" ph="{...}" />
+            <marker date="1538094478633" expanded="true" signature="1567:1685" ph="{...}" />
+            <marker date="1538094478633" expanded="true" signature="1730:1782" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Spawners/CoinSpawners/CollectiblesSpawnersController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1530">
+          <caret line="105" column="13" selection-start-line="105" selection-start-column="13" selection-end-line="105" selection-end-column="13" />
+          <folding>
+            <marker date="1538091371084" expanded="false" signature="6:109" ph="..." />
+            <marker date="1538091371084" expanded="true" signature="142:3967" ph="{...}" />
+            <marker date="1538091371084" expanded="true" signature="208:3965" ph="{...}" />
+            <marker date="1538091371084" expanded="true" signature="523:608" ph="{...}" />
+            <marker date="1538091371084" expanded="true" signature="701:902" ph="{...}" />
+            <marker date="1538091371084" expanded="true" signature="802:892" ph="{...}" />
+            <marker date="1538091371084" expanded="true" signature="948:1351" ph="{...}" />
+            <marker date="1538091371084" expanded="true" signature="1186:1270" ph="{...}" />
+            <marker date="1538091371084" expanded="true" signature="1396:1473" ph="{...}" />
+            <marker date="1538091371084" expanded="true" signature="1518:1594" ph="{...}" />
+            <marker date="1538091371084" expanded="true" signature="1640:1691" ph="{...}" />
+            <marker date="1538091371084" expanded="true" signature="1734:1995" ph="{...}" />
+            <marker date="1538091371084" expanded="true" signature="1806:1961" ph="{...}" />
+            <marker date="1538091371084" expanded="true" signature="1881:1947" ph="{...}" />
+            <marker date="1538091371084" expanded="true" signature="2046:2292" ph="{...}" />
+            <marker date="1538091371084" expanded="true" signature="2405:2819" ph="{...}" />
+            <marker date="1538091371084" expanded="true" signature="2512:2809" ph="{...}" />
+            <marker date="1538091371084" expanded="true" signature="2986:3959" ph="{...}" />
+            <marker date="1538091371084" expanded="true" signature="3041:3169" ph="{...}" />
+            <marker date="1538091371084" expanded="true" signature="3214:3949" ph="{...}" />
+            <marker date="1538091371084" expanded="true" signature="3388:3762" ph="{...}" />
+            <marker date="1538091371084" expanded="true" signature="3468:3744" ph="{...}" />
+            <marker date="1538091371084" expanded="true" signature="3839:3935" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Spawners/CoinSpawners/CollectiblesSpawner.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="705">
+          <caret line="47" column="30" selection-start-line="47" selection-start-column="30" selection-end-line="47" selection-end-column="30" />
+          <folding>
+            <marker date="1537394980006" expanded="true" signature="38:1425" ph="{...}" />
+            <marker date="1537394980006" expanded="true" signature="93:1423" ph="{...}" />
+            <marker date="1537394980006" expanded="true" signature="460:558" ph="{...}" />
+            <marker date="1537394980006" expanded="true" signature="606:730" ph="{...}" />
+            <marker date="1537394980006" expanded="true" signature="775:887" ph="{...}" />
+            <marker date="1537394980006" expanded="true" signature="919:1017" ph="{...}" />
+            <marker date="1537394980006" expanded="true" signature="1088:1198" ph="{...}" />
+            <marker date="1537394980006" expanded="true" signature="1244:1328" ph="{...}" />
+            <marker date="1537394980006" expanded="true" signature="1365:1417" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Collectibles/CollectibleTranslatorSystem.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="35" column="52" selection-start-line="35" selection-start-column="52" selection-end-line="35" selection-end-column="52" />
+          <folding>
+            <marker date="1537492604118" expanded="false" signature="6:40" ph="..." />
+            <marker date="1537492604118" expanded="true" signature="64:2213" ph="{...}" />
+            <marker date="1537492604118" expanded="true" signature="129:2211" ph="{...}" />
+            <marker date="1537492604118" expanded="true" signature="194:318" ph="{...}" />
+            <marker date="1537492604118" expanded="true" signature="539:815" ph="{...}" />
+            <marker date="1537492604118" expanded="true" signature="859:2205" ph="{...}" />
+            <marker date="1537492604118" expanded="true" signature="988:2195" ph="{...}" />
+            <marker date="1537492604118" expanded="true" signature="1063:1275" ph="{...}" />
+            <marker date="1537492604118" expanded="true" signature="1347:1725" ph="{...}" />
+            <marker date="1537492604118" expanded="true" signature="1746:2181" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Collectibles/CollectibleTranslator.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+          <folding>
+            <marker date="1538094478633" expanded="true" signature="6:50" ph="..." />
+            <marker date="1538094478633" expanded="true" signature="74:1790" ph="{...}" />
+            <marker date="1538094478633" expanded="true" signature="131:1788" ph="{...}" />
+            <marker date="1538094478633" expanded="true" signature="336:424" ph="{...}" />
+            <marker date="1538094478633" expanded="true" signature="571:661" ph="{...}" />
+            <marker date="1538094478633" expanded="true" signature="699:803" ph="{...}" />
+            <marker date="1538094478633" expanded="true" signature="876:974" ph="{...}" />
+            <marker date="1538094478633" expanded="true" signature="1102:1156" ph="{...}" />
+            <marker date="1538094478633" expanded="true" signature="1273:1357" ph="{...}" />
+            <marker date="1538094478633" expanded="true" signature="1411:1467" ph="{...}" />
+            <marker date="1538094478633" expanded="true" signature="1567:1685" ph="{...}" />
+            <marker date="1538094478633" expanded="true" signature="1730:1782" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Spawners/CoinSpawners/CollectiblesSpawnerSystem.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="19" column="58" selection-start-line="19" selection-start-column="58" selection-end-line="19" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Spawners/CoinSpawners/CollectiblesSpawnersController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1545">
+          <caret line="103" column="13" lean-forward="true" selection-start-line="103" selection-start-column="13" selection-end-line="103" selection-end-column="13" />
+          <folding>
+            <marker date="1538091371084" expanded="false" signature="6:109" ph="..." />
+            <marker date="1538091371084" expanded="true" signature="142:3967" ph="{...}" />
+            <marker date="1538091371084" expanded="true" signature="208:3965" ph="{...}" />
+            <marker date="1538091371084" expanded="true" signature="523:608" ph="{...}" />
+            <marker date="1538091371084" expanded="true" signature="701:902" ph="{...}" />
+            <marker date="1538091371084" expanded="true" signature="802:892" ph="{...}" />
+            <marker date="1538091371084" expanded="true" signature="948:1351" ph="{...}" />
+            <marker date="1538091371084" expanded="true" signature="1186:1270" ph="{...}" />
+            <marker date="1538091371084" expanded="true" signature="1396:1473" ph="{...}" />
+            <marker date="1538091371084" expanded="true" signature="1518:1594" ph="{...}" />
+            <marker date="1538091371084" expanded="true" signature="1640:1691" ph="{...}" />
+            <marker date="1538091371084" expanded="true" signature="1734:1995" ph="{...}" />
+            <marker date="1538091371084" expanded="true" signature="1806:1961" ph="{...}" />
+            <marker date="1538091371084" expanded="true" signature="1881:1947" ph="{...}" />
+            <marker date="1538091371084" expanded="true" signature="2046:2292" ph="{...}" />
+            <marker date="1538091371084" expanded="true" signature="2405:2819" ph="{...}" />
+            <marker date="1538091371084" expanded="true" signature="2512:2809" ph="{...}" />
+            <marker date="1538091371084" expanded="true" signature="2986:3959" ph="{...}" />
+            <marker date="1538091371084" expanded="true" signature="3041:3169" ph="{...}" />
+            <marker date="1538091371084" expanded="true" signature="3214:3949" ph="{...}" />
+            <marker date="1538091371084" expanded="true" signature="3388:3762" ph="{...}" />
+            <marker date="1538091371084" expanded="true" signature="3468:3744" ph="{...}" />
+            <marker date="1538091371084" expanded="true" signature="3839:3935" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Spawners/CoinSpawners/CollectiblesSpawner.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="705">
+          <caret line="47" column="30" selection-start-line="47" selection-start-column="30" selection-end-line="47" selection-end-column="30" />
+          <folding>
+            <marker date="1537394980006" expanded="true" signature="38:1425" ph="{...}" />
+            <marker date="1537394980006" expanded="true" signature="93:1423" ph="{...}" />
+            <marker date="1537394980006" expanded="true" signature="460:558" ph="{...}" />
+            <marker date="1537394980006" expanded="true" signature="606:730" ph="{...}" />
+            <marker date="1537394980006" expanded="true" signature="775:887" ph="{...}" />
+            <marker date="1537394980006" expanded="true" signature="919:1017" ph="{...}" />
+            <marker date="1537394980006" expanded="true" signature="1088:1198" ph="{...}" />
+            <marker date="1537394980006" expanded="true" signature="1244:1328" ph="{...}" />
+            <marker date="1537394980006" expanded="true" signature="1365:1417" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Collectibles/CollectibleTranslatorSystem.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="52" selection-start-line="35" selection-start-column="52" selection-end-line="35" selection-end-column="52" />
+          <folding>
+            <marker date="1537492604118" expanded="false" signature="6:40" ph="..." />
+            <marker date="1537492604118" expanded="true" signature="64:2213" ph="{...}" />
+            <marker date="1537492604118" expanded="true" signature="129:2211" ph="{...}" />
+            <marker date="1537492604118" expanded="true" signature="194:318" ph="{...}" />
+            <marker date="1537492604118" expanded="true" signature="539:815" ph="{...}" />
+            <marker date="1537492604118" expanded="true" signature="859:2205" ph="{...}" />
+            <marker date="1537492604118" expanded="true" signature="988:2195" ph="{...}" />
+            <marker date="1537492604118" expanded="true" signature="1063:1275" ph="{...}" />
+            <marker date="1537492604118" expanded="true" signature="1347:1725" ph="{...}" />
+            <marker date="1537492604118" expanded="true" signature="1746:2181" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Collectibles/CollectibleTranslator.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+          <folding>
+            <marker date="1538094478633" expanded="true" signature="6:50" ph="..." />
+            <marker date="1538094478633" expanded="true" signature="74:1790" ph="{...}" />
+            <marker date="1538094478633" expanded="true" signature="131:1788" ph="{...}" />
+            <marker date="1538094478633" expanded="true" signature="336:424" ph="{...}" />
+            <marker date="1538094478633" expanded="true" signature="571:661" ph="{...}" />
+            <marker date="1538094478633" expanded="true" signature="699:803" ph="{...}" />
+            <marker date="1538094478633" expanded="true" signature="876:974" ph="{...}" />
+            <marker date="1538094478633" expanded="true" signature="1102:1156" ph="{...}" />
+            <marker date="1538094478633" expanded="true" signature="1273:1357" ph="{...}" />
+            <marker date="1538094478633" expanded="true" signature="1411:1467" ph="{...}" />
+            <marker date="1538094478633" expanded="true" signature="1567:1685" ph="{...}" />
+            <marker date="1538094478633" expanded="true" signature="1730:1782" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Spawners/CoinSpawners/CollectiblesSpawnerSystem.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="65" selection-start-line="34" selection-start-column="65" selection-end-line="34" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Gravity/GravityForce.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -494,129 +853,216 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Spawners/CoinSpawners/CollectibleValue.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="58" selection-start-line="10" selection-start-column="58" selection-end-line="10" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Spawners/CoinSpawners/CollectiblesSensor.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Spawners/CoinSpawners/CollectiblesStimulus.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="24" lean-forward="true" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Collectibles/CollectibleRotator.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Tags/Tags.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="67" selection-start-line="6" selection-start-column="67" selection-end-line="6" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Spawners/CoinSpawners/CollectibleSpawnerHandler.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="18" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Collectibles/CollectibleTranslatorSystem.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="35" column="52" selection-start-line="35" selection-start-column="52" selection-end-line="35" selection-end-column="52" />
+        <state relative-caret-position="465">
+          <caret line="31" column="35" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
           <folding>
-            <marker date="1537715873502" expanded="false" signature="6:40" ph="..." />
-            <marker date="1537715873502" expanded="true" signature="129:2211" ph="{...}" />
-            <marker date="1537715873502" expanded="true" signature="194:318" ph="{...}" />
-            <marker date="1537715873502" expanded="true" signature="539:815" ph="{...}" />
-            <marker date="1537715873502" expanded="true" signature="859:2205" ph="{...}" />
-            <marker date="1537715873502" expanded="true" signature="988:2195" ph="{...}" />
-            <marker date="1537715873502" expanded="true" signature="1063:1275" ph="{...}" />
-            <marker date="1537715873502" expanded="true" signature="1347:1725" ph="{...}" />
-            <marker date="1537715873502" expanded="true" signature="1746:2181" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Collectibles/CollectibleTranslator.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
-          <folding>
-            <marker date="1537715873501" expanded="false" signature="6:31" ph="..." />
-            <marker date="1537715873501" expanded="true" signature="112:1517" ph="{...}" />
-            <marker date="1537715873501" expanded="true" signature="259:347" ph="{...}" />
-            <marker date="1537715873501" expanded="true" signature="494:584" ph="{...}" />
-            <marker date="1537715873501" expanded="true" signature="622:726" ph="{...}" />
-            <marker date="1537715873501" expanded="true" signature="799:897" ph="{...}" />
-            <marker date="1537715873501" expanded="true" signature="1025:1079" ph="{...}" />
-            <marker date="1537715873501" expanded="true" signature="1116:1200" ph="{...}" />
-            <marker date="1537715873501" expanded="true" signature="1254:1310" ph="{...}" />
-            <marker date="1537715873501" expanded="true" signature="1360:1414" ph="{...}" />
-            <marker date="1537715873501" expanded="true" signature="1459:1511" ph="{...}" />
+            <marker date="1537491461439" expanded="true" signature="42:766" ph="{...}" />
+            <marker date="1537491461439" expanded="true" signature="96:764" ph="{...}" />
+            <marker date="1537491461439" expanded="true" signature="325:423" ph="{...}" />
+            <marker date="1537491461439" expanded="true" signature="457:545" ph="{...}" />
+            <marker date="1537491461439" expanded="true" signature="581:669" ph="{...}" />
+            <marker date="1537491461439" expanded="true" signature="706:758" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Spawners/CoinSpawners/CollectiblesSpawnerSystem.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="34" column="65" selection-start-line="34" selection-start-column="65" selection-end-line="34" selection-end-column="65" />
+        <state relative-caret-position="480">
+          <caret line="37" column="79" lean-forward="true" selection-start-line="37" selection-start-column="79" selection-end-line="37" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Collectibles/CollectibleTranslator.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="488">
+          <caret line="51" column="26" selection-start-line="51" selection-start-column="26" selection-end-line="51" selection-end-column="26" />
           <folding>
-            <marker date="1537715873596" expanded="false" signature="6:100" ph="..." />
-            <marker date="1537715873596" expanded="true" signature="133:1519" ph="{...}" />
-            <marker date="1537715873596" expanded="true" signature="196:1517" ph="{...}" />
-            <marker date="1537715873596" expanded="true" signature="252:372" ph="{...}" />
-            <marker date="1537715873596" expanded="true" signature="416:1511" ph="{...}" />
-            <marker date="1537715873596" expanded="true" signature="642:826" ph="{...}" />
-            <marker date="1537715873596" expanded="true" signature="715:812" ph="{...}" />
-            <marker date="1537715873596" expanded="true" signature="914:1501" ph="{...}" />
-            <marker date="1537715873596" expanded="true" signature="1025:1487" ph="{...}" />
+            <marker date="1538094478633" expanded="true" signature="6:50" ph="..." />
+            <marker date="1538094478633" expanded="true" signature="74:1790" ph="{...}" />
+            <marker date="1538094478633" expanded="true" signature="131:1788" ph="{...}" />
+            <marker date="1538094478633" expanded="true" signature="336:424" ph="{...}" />
+            <marker date="1538094478633" expanded="true" signature="571:661" ph="{...}" />
+            <marker date="1538094478633" expanded="true" signature="699:803" ph="{...}" />
+            <marker date="1538094478633" expanded="true" signature="876:974" ph="{...}" />
+            <marker date="1538094478633" expanded="true" signature="1102:1156" ph="{...}" />
+            <marker date="1538094478633" expanded="true" signature="1273:1357" ph="{...}" />
+            <marker date="1538094478633" expanded="true" signature="1411:1467" ph="{...}" />
+            <marker date="1538094478633" expanded="true" signature="1567:1685" ph="{...}" />
+            <marker date="1538094478633" expanded="true" signature="1730:1782" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Collectibles/CollectibleTranslatorSystem.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="30" column="65" selection-start-line="30" selection-start-column="65" selection-end-line="30" selection-end-column="65" />
+          <folding>
+            <marker date="1537492604118" expanded="false" signature="6:40" ph="..." />
+            <marker date="1537492604118" expanded="true" signature="64:2213" ph="{...}" />
+            <marker date="1537492604118" expanded="true" signature="129:2211" ph="{...}" />
+            <marker date="1537492604118" expanded="true" signature="194:318" ph="{...}" />
+            <marker date="1537492604118" expanded="true" signature="539:815" ph="{...}" />
+            <marker date="1537492604118" expanded="true" signature="859:2205" ph="{...}" />
+            <marker date="1537492604118" expanded="true" signature="988:2195" ph="{...}" />
+            <marker date="1537492604118" expanded="true" signature="1063:1275" ph="{...}" />
+            <marker date="1537492604118" expanded="true" signature="1347:1725" ph="{...}" />
+            <marker date="1537492604118" expanded="true" signature="1746:2181" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player Gold/PlayerGoldTextUpdater.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="44" selection-start-line="31" selection-start-column="44" selection-end-line="31" selection-end-column="44" />
+          <folding>
+            <marker date="1538098451238" expanded="true" signature="6:54" ph="..." />
+            <marker date="1538098451238" expanded="true" signature="77:1257" ph="{...}" />
+            <marker date="1538098451238" expanded="true" signature="134:1255" ph="{...}" />
+            <marker date="1538098451238" expanded="true" signature="284:372" ph="{...}" />
+            <marker date="1538098451238" expanded="true" signature="405:494" ph="{...}" />
+            <marker date="1538098451238" expanded="true" signature="536:625" ph="{...}" />
+            <marker date="1538098451238" expanded="true" signature="670:735" ph="{...}" />
+            <marker date="1538098451238" expanded="true" signature="776:1106" ph="{...}" />
+            <marker date="1538098451238" expanded="true" signature="820:928" ph="{...}" />
+            <marker date="1538098451238" expanded="true" signature="973:1096" ph="{...}" />
+            <marker date="1538098451238" expanded="true" signature="1169:1249" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player Gold/PlayerGoldContainer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="46" selection-start-line="29" selection-start-column="46" selection-end-line="29" selection-end-column="46" />
+          <folding>
+            <marker date="1538096539808" expanded="true" signature="41:739" ph="{...}" />
+            <marker date="1538096539808" expanded="true" signature="169:737" ph="{...}" />
+            <marker date="1538096539808" expanded="true" signature="310:362" ph="{...}" />
+            <marker date="1538096539808" expanded="true" signature="403:459" ph="{...}" />
+            <marker date="1538096539808" expanded="true" signature="504:582" ph="{...}" />
+            <marker date="1538096539808" expanded="true" signature="628:731" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Collectibles/CollectibleDestroyerSystem.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="39" column="60" selection-start-line="39" selection-start-column="60" selection-end-line="39" selection-end-column="60" />
+          <folding>
+            <marker date="1538095720473" expanded="true" signature="6:103" ph="..." />
+            <marker date="1538095720473" expanded="true" signature="127:1467" ph="{...}" />
+            <marker date="1538095720473" expanded="true" signature="191:1465" ph="{...}" />
+            <marker date="1538095720473" expanded="true" signature="227:405" ph="{...}" />
+            <marker date="1538095720473" expanded="true" signature="508:674" ph="{...}" />
+            <marker date="1538095720473" expanded="true" signature="718:1459" ph="{...}" />
+            <marker date="1538095720473" expanded="true" signature="855:1185" ph="{...}" />
+            <marker date="1538095720473" expanded="true" signature="1084:1171" ph="{...}" />
+            <marker date="1538095720473" expanded="true" signature="1243:1449" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Tags/Tags.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="18" selection-start-column="18" selection-end-column="18" />
+          <folding>
+            <marker date="1538097526562" expanded="true" signature="34:192" ph="{...}" />
+            <marker date="1538097526562" expanded="true" signature="58:190" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Spawners/CoinSpawners/CollectiblesSpawner.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="705">
-          <caret line="47" column="30" selection-start-line="47" selection-start-column="30" selection-end-line="47" selection-end-column="30" />
+        <state relative-caret-position="548">
+          <caret line="39" column="20" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
           <folding>
-            <marker date="1537715873594" expanded="true" signature="38:1425" ph="{...}" />
-            <marker date="1537715873594" expanded="true" signature="93:1423" ph="{...}" />
-            <marker date="1537715873594" expanded="true" signature="460:558" ph="{...}" />
-            <marker date="1537715873594" expanded="true" signature="606:730" ph="{...}" />
-            <marker date="1537715873594" expanded="true" signature="775:887" ph="{...}" />
-            <marker date="1537715873594" expanded="true" signature="919:1017" ph="{...}" />
-            <marker date="1537715873594" expanded="true" signature="1088:1198" ph="{...}" />
-            <marker date="1537715873594" expanded="true" signature="1244:1328" ph="{...}" />
-            <marker date="1537715873594" expanded="true" signature="1365:1417" ph="{...}" />
+            <marker date="1537394980006" expanded="true" signature="38:1425" ph="{...}" />
+            <marker date="1537394980006" expanded="true" signature="93:1423" ph="{...}" />
+            <marker date="1537394980006" expanded="true" signature="460:558" ph="{...}" />
+            <marker date="1537394980006" expanded="true" signature="606:730" ph="{...}" />
+            <marker date="1537394980006" expanded="true" signature="775:887" ph="{...}" />
+            <marker date="1537394980006" expanded="true" signature="919:1017" ph="{...}" />
+            <marker date="1537394980006" expanded="true" signature="1088:1198" ph="{...}" />
+            <marker date="1537394980006" expanded="true" signature="1244:1328" ph="{...}" />
+            <marker date="1537394980006" expanded="true" signature="1365:1417" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Spawners/CoinSpawners/CollectibleSpawnerHandler.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+          <folding>
+            <marker date="1538098835284" expanded="true" signature="6:32" ph="..." />
+            <marker date="1538098835284" expanded="true" signature="65:931" ph="{...}" />
+            <marker date="1538098835284" expanded="true" signature="126:929" ph="{...}" />
+            <marker date="1538098835284" expanded="true" signature="228:314" ph="{...}" />
+            <marker date="1538098835284" expanded="true" signature="357:524" ph="{...}" />
+            <marker date="1538098835284" expanded="true" signature="565:760" ph="{...}" />
+            <marker date="1538098835284" expanded="true" signature="611:750" ph="{...}" />
+            <marker date="1538098835284" expanded="true" signature="825:923" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Spawners/CoinSpawners/CollectiblesSpawnersController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="103" column="13" lean-forward="true" selection-start-line="103" selection-start-column="13" selection-end-line="103" selection-end-column="13" />
+        <state relative-caret-position="510">
+          <caret line="103" column="13" selection-start-line="103" selection-start-column="13" selection-end-line="103" selection-end-column="13" />
           <folding>
-            <marker date="1537728812557" expanded="false" signature="6:109" ph="..." />
-            <marker date="1537728812557" expanded="true" signature="142:3949" ph="{...}" />
-            <marker date="1537728812557" expanded="true" signature="208:3947" ph="{...}" />
-            <marker date="1537728812557" expanded="true" signature="522:607" ph="{...}" />
-            <marker date="1537728812557" expanded="true" signature="700:901" ph="{...}" />
-            <marker date="1537728812557" expanded="true" signature="801:891" ph="{...}" />
-            <marker date="1537728812557" expanded="true" signature="947:1350" ph="{...}" />
-            <marker date="1537728812557" expanded="true" signature="1185:1269" ph="{...}" />
-            <marker date="1537728812557" expanded="true" signature="1395:1472" ph="{...}" />
-            <marker date="1537728812557" expanded="true" signature="1517:1593" ph="{...}" />
-            <marker date="1537728812557" expanded="true" signature="1639:1690" ph="{...}" />
-            <marker date="1537728812557" expanded="true" signature="1733:1978" ph="{...}" />
-            <marker date="1537728812557" expanded="true" signature="1805:1944" ph="{...}" />
-            <marker date="1537728812557" expanded="true" signature="1864:1930" ph="{...}" />
-            <marker date="1537728812557" expanded="true" signature="2029:2275" ph="{...}" />
-            <marker date="1537728812557" expanded="true" signature="2388:2802" ph="{...}" />
-            <marker date="1537728812557" expanded="true" signature="2495:2792" ph="{...}" />
-            <marker date="1537728812557" expanded="true" signature="2969:3941" ph="{...}" />
-            <marker date="1537728812557" expanded="true" signature="3024:3151" ph="{...}" />
-            <marker date="1537728812557" expanded="true" signature="3196:3931" ph="{...}" />
-            <marker date="1537728812557" expanded="true" signature="3370:3744" ph="{...}" />
-            <marker date="1537728812557" expanded="true" signature="3450:3726" ph="{...}" />
-            <marker date="1537728812557" expanded="true" signature="3821:3917" ph="{...}" />
+            <marker date="1538091371084" expanded="false" signature="6:109" ph="..." />
+            <marker date="1538091371084" expanded="true" signature="142:3967" ph="{...}" />
+            <marker date="1538091371084" expanded="true" signature="208:3965" ph="{...}" />
+            <marker date="1538091371084" expanded="true" signature="523:608" ph="{...}" />
+            <marker date="1538091371084" expanded="true" signature="701:902" ph="{...}" />
+            <marker date="1538091371084" expanded="true" signature="802:892" ph="{...}" />
+            <marker date="1538091371084" expanded="true" signature="948:1351" ph="{...}" />
+            <marker date="1538091371084" expanded="true" signature="1186:1270" ph="{...}" />
+            <marker date="1538091371084" expanded="true" signature="1396:1473" ph="{...}" />
+            <marker date="1538091371084" expanded="true" signature="1518:1594" ph="{...}" />
+            <marker date="1538091371084" expanded="true" signature="1640:1691" ph="{...}" />
+            <marker date="1538091371084" expanded="true" signature="1734:1995" ph="{...}" />
+            <marker date="1538091371084" expanded="true" signature="1806:1961" ph="{...}" />
+            <marker date="1538091371084" expanded="true" signature="1881:1947" ph="{...}" />
+            <marker date="1538091371084" expanded="true" signature="2046:2292" ph="{...}" />
+            <marker date="1538091371084" expanded="true" signature="2405:2819" ph="{...}" />
+            <marker date="1538091371084" expanded="true" signature="2512:2809" ph="{...}" />
+            <marker date="1538091371084" expanded="true" signature="2986:3959" ph="{...}" />
+            <marker date="1538091371084" expanded="true" signature="3041:3169" ph="{...}" />
+            <marker date="1538091371084" expanded="true" signature="3214:3949" ph="{...}" />
+            <marker date="1538091371084" expanded="true" signature="3388:3762" ph="{...}" />
+            <marker date="1538091371084" expanded="true" signature="3468:3744" ph="{...}" />
+            <marker date="1538091371084" expanded="true" signature="3839:3935" ph="{...}" />
           </folding>
         </state>
       </provider>

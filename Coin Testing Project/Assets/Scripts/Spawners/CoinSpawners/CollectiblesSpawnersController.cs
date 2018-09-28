@@ -7,7 +7,7 @@ namespace Spawners.CoinSpawners
 {
     public class CollectiblesSpawnersController : MonoBehaviour
     {
-        private const int PLACE_TAKEN_VALUE = 1;
+        private const int PLACE_TAKEN_VALUE = -1;
         private const int PLACE_FREE_VALUE = 1;
         private const float TIME_BEFORE_RESET = 0.25f;
         private CollectiblesSpawner[] collectiblesSpawnersTab = null;
@@ -63,7 +63,7 @@ namespace Spawners.CoinSpawners
         {
             for (int i = 0; i < spawnersIndexTab.Length; ++i)
             {
-                if (spawnersIndexTab[i] > 0)
+                if (spawnersIndexTab[i] == PLACE_FREE_VALUE)
                 {
                     return i;
                 }
@@ -100,7 +100,7 @@ namespace Spawners.CoinSpawners
         {
             if (Input.GetKeyDown(KeyCode.A))
             {
-                CollectibleSpawnerHandler.Controller.PlaceASpawnerAt(spawningPoint, endPoint, 25);
+                CollectibleSpawnerHandler.Controller.PlaceASpawnerAt(spawningPoint, endPoint, 100);
             }
 
             if (spawnersToReset.Count >= 1)

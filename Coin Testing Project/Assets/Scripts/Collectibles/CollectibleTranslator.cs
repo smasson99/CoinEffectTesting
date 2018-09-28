@@ -1,4 +1,5 @@
-﻿using TMPro;
+﻿using Player_Gold;
+using TMPro;
 using UnityEngine;
 
 namespace Collectibles
@@ -7,6 +8,8 @@ namespace Collectibles
     {
         [Tooltip("The speed to translate the collectible")] [SerializeField]
         private float speed = 1.5f;
+
+        private PlayerGoldContainer playerGoldContainer;
 
         public float Speed
         {
@@ -46,6 +49,8 @@ namespace Collectibles
             lastTime = Time.time;
         }
 
+        public PlayerGoldContainer PlayerGoldContainer => playerGoldContainer;
+
         public bool WaitingPassed()
         {
             return lastTime + waitingTimeInSeconds < Time.time;
@@ -56,9 +61,10 @@ namespace Collectibles
             initialTarget = target;
         }
 
-        public void SetTarget(GameObject target)
+        public void SetTarget(GameObject target, PlayerGoldContainer playerGoldContainerComponent)
         {
             this.target = target;
+            playerGoldContainer = playerGoldContainerComponent;
         }
         
         public void NotifySpawned()

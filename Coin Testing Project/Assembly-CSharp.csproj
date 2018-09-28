@@ -54,6 +54,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\Collectibles\CollectibleDestroyerSystem.cs" />
     <Compile Include="Assets\Scripts\Collectibles\CollectibleRotator.cs" />
     <Compile Include="Assets\Scripts\Collectibles\CollectibleRotatorSystem.cs" />
     <Compile Include="Assets\Scripts\Collectibles\CollectibleTranslator.cs" />
@@ -67,10 +68,13 @@
     <Compile Include="Assets\Scripts\Navmesh\NavMeshModifier.cs" />
     <Compile Include="Assets\Scripts\Navmesh\NavMeshModifierVolume.cs" />
     <Compile Include="Assets\Scripts\Navmesh\NavMeshSurface.cs" />
+    <Compile Include="Assets\Scripts\Player Gold\PlayerGoldContainer.cs" />
+    <Compile Include="Assets\Scripts\Player Gold\PlayerGoldTextUpdater.cs" />
     <Compile Include="Assets\Scripts\Spawners\CoinSpawners\CollectibleSpawnerHandler.cs" />
     <Compile Include="Assets\Scripts\Spawners\CoinSpawners\CollectiblesSpawner.cs" />
     <Compile Include="Assets\Scripts\Spawners\CoinSpawners\CollectiblesSpawnersController.cs" />
     <Compile Include="Assets\Scripts\Spawners\CoinSpawners\CollectiblesSpawnerSystem.cs" />
+    <Compile Include="Assets\Scripts\Spawners\CoinSpawners\CollectibleValue.cs" />
     <Compile Include="Assets\Scripts\Tags\Tags.cs" />
     <Compile Include="Assets\Scripts\Utils\MathPositionUtils.cs" />
     <Reference Include="Unity.Entities.Properties">
@@ -697,9 +701,4 @@
   <Target Name="AfterBuild">
   </Target>
   -->
-  <ItemGroup>
-    <Reference Include="Microsoft.CSharp">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.2.8f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Microsoft.CSharp.dll</HintPath>
-    </Reference>
-  </ItemGroup>
 </Project>
