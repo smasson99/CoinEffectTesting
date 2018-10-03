@@ -1,6 +1,7 @@
 ﻿using System;
 using UnityEngine;
 using System.Collections.Generic;
+using Random = UnityEngine.Random;
 
 namespace Spawners.CoinSpawners
 {
@@ -116,17 +117,17 @@ namespace Spawners.CoinSpawners
         }
 
         //todo when merging : remove those serializeField
-        [SerializeField] private GameObject spawningPoint = null;
+        [SerializeField] private GameObject spawningPoint;
 
-        [SerializeField] private GameObject endPoint = null;
+        [SerializeField] private GameObject endPoint;
         //
 
         private void Update()
         {
             //todo when merging : remove this part
-            if (Input.GetKeyDown(KeyCode.A))
+            if (Input.GetKeyDown(KeyCode.Space))
             {
-                CollectibleSpawnerHandler.Controller.PlaceASpawnerAt(spawningPoint, endPoint, 100);
+                CollectibleSpawnerHandler.Controller.PlaceASpawnerAt(spawningPoint, endPoint, Random.Range(25, 200));
             }
             //
 

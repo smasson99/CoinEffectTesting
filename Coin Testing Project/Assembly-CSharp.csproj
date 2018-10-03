@@ -60,6 +60,9 @@
     <Compile Include="Assets\Scripts\Collectibles\CollectibleTranslator.cs" />
     <Compile Include="Assets\Scripts\Collectibles\CollectibleTranslatorSystem.cs" />
     <Compile Include="Assets\Scripts\Enemies\EnemyController.cs" />
+    <Compile Include="Assets\Scripts\Exit\ExitGameOnKeyPressed.cs" />
+    <Compile Include="Assets\Scripts\FPS\FrameDisplayer.cs" />
+    <Compile Include="Assets\Scripts\FPS\FrameDisplayerSystem.cs" />
     <Compile Include="Assets\Scripts\Gravity\GravityForce.cs" />
     <Compile Include="Assets\Scripts\Gravity\GravitySystem.cs" />
     <Compile Include="Assets\Scripts\Inputs\InputSystem.cs" />
@@ -70,6 +73,7 @@
     <Compile Include="Assets\Scripts\Navmesh\NavMeshSurface.cs" />
     <Compile Include="Assets\Scripts\Player Gold\PlayerGoldContainer.cs" />
     <Compile Include="Assets\Scripts\Player Gold\PlayerGoldTextUpdater.cs" />
+    <Compile Include="Assets\Scripts\Player Gold\PlayerHealthTextUpdater.cs" />
     <Compile Include="Assets\Scripts\Spawners\CoinSpawners\CollectibleSpawnerHandler.cs" />
     <Compile Include="Assets\Scripts\Spawners\CoinSpawners\CollectiblesSpawner.cs" />
     <Compile Include="Assets\Scripts\Spawners\CoinSpawners\CollectiblesSpawnersController.cs" />

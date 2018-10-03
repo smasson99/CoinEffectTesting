@@ -16,6 +16,13 @@
           <e p="Enemies" t="Include">
             <e p="EnemyController.cs" t="Include" />
           </e>
+          <e p="Exit" t="Include">
+            <e p="ExitGameOnKeyPressed.cs" t="Include" />
+          </e>
+          <e p="FPS" t="Include">
+            <e p="FrameDisplayer.cs" t="Include" />
+            <e p="FrameDisplayerSystem.cs" t="Include" />
+          </e>
           <e p="Gravity" t="Include">
             <e p="GravityForce.cs" t="Include" />
             <e p="GravitySystem.cs" t="Include" />
@@ -33,6 +40,7 @@
           <e p="Player Gold" t="Include">
             <e p="PlayerGoldContainer.cs" t="Include" />
             <e p="PlayerGoldTextUpdater.cs" t="Include" />
+            <e p="PlayerHealthTextUpdater.cs" t="Include" />
           </e>
           <e p="Spawners" t="Include">
             <e p="CoinSpawners" t="Include">
